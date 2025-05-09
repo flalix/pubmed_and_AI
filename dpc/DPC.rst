@@ -12,29 +12,12 @@ The Digital Pathway Curation (DPC) pipeline was designed and tested to address t
   4. How can we quantify AI-generated answers, make inferences, and calculate statistics?
   5. How can we demonstrate that Gemini delivers reproducible results using a set of biomedical questions?
 
-<style>
-.container {
-  position: relative;
-}
 
-.topright {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  font-size: 18px;
-}
-
-img { 
-  width: 100%;
-  height: auto;
-  opacity: 0.3;
-}
-</style>
-
-<div class="container">
-  <img src="images/CSC.png" alt="CSC method" width="400" height="300">
-  <div class="topright">Top Right</div>
-</div>
+.. image:: ../images/CSC.png
+  :align: right
+  :width: 200
+  :height: 250
+  :alt: CSC method
 
 
 Regarding the relationship between a set of molecular biological pathways and a disease, we also considered the following questions:
