@@ -15,12 +15,13 @@ Next Steps
 
 
 In-development
---------------
+==============
+
  - In silico Validation
 
 
 Future steps
----------------
+============
 
   - Integrate to ML/KB tools
   - First case:
