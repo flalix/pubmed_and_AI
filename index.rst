@@ -27,6 +27,15 @@ DPC introduces significant methods for evaluating Large Language Models (LLM), p
 The Digital Pathway Curation pipeline was designed to retrieve answers from distinct semantic questions by formulating queries crossing a disease to biomedical pathways. We devised and tested a specific query format, which produced systematic answers that could be quantified. Next, we developed different methods to calculate precise metrics for evaluating the LLM's reproducibility, consensus, and accuracy. The Multi-Model Consensus (MMC) method demonstrated strong results by achieving the consensus among multiple Gemini models. MMC accuracy outperforms PubMed and Human accuracies. Most notably, the final approach, the "confusion matrices method", was able to evaluate the Gene Set Enrichment Analysis (GSEA) results and identify False Positive and False Negative Pathways. Uncover False Negative Pathways opens new opportunities and hypotheses for future researchers.
 
 
+.. Note:: 
+  | Bio and Immunoinformatics, Systems Biology, and Artificial Intelligence Laboratory (BISAI-Lab)  
+  | PhD Flavio Lichtenstein  
+  | email: flavio.lichtenstein@butantan.gov.br  
+
+  | `Centre of Excellence in New Target Discovery (CENTD) <https://centd.butantan.gov.br/US/>`_
+  | Development and Innovation Center (CDI)
+  | `Instituto Butantan <https://en.butantan.gov.br/>`_
+
 
 .. toctree::
    :maxdepth: 2
@@ -43,6 +52,7 @@ The Digital Pathway Curation pipeline was designed to retrieve answers from dist
 
    dpc/DPC
    dpc/Ensemble
+   dpc/SemanticQuestions
    dpc/Consensus
    dpc/CSC
    dpc/source_code
