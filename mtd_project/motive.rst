@@ -9,24 +9,33 @@ The “Molecular Pathway Discovery” is an open-source project divided in 4 pip
 
 The goal of this project is to provide a set of tools to help researchers in molecular biology and systems biology curate pathways and suggest possible genes and molecular targets for drug discovery.
 
-Concepts
-========
+Pipelines
+=========
+  * Best Cutoff Algorithm (BCA)
 
-  - Best Cutoff Algorithm (BCA)
-    - Search for flexible cutoffs in high-throughput data
-    - Build the LFC-FDR landscape
-  - Digital Pathway Curation (DPC)
-    - Build the Ensemble Dataset
-      - Calculates Gemini Reproducibility
-      - Calculate One and Multi-Model Reproducibility
-      - Find Gemini x Pub agreements
-    - Build the Multi-Source Dataset (MSD)
-      - Calculates the Crowdsourcing Consensus
-      - Calculate Gemini, PubMed, and Human accuracies
-  - pseudo Pathway Curation (PPC)
-    - in development
-  - *in silico* Target Curation (isTC)
-    - in development
+    * Build the LFC-FDR landscape
+    * Search for flexible cutoffs in high-throughput data  
+
+  * Digital Pathway Curation (DPC)
+
+    * Build the Ensemble Dataset
+
+      * Calculates Gemini Reproducibility  
+      * Calculate One and Multi-Model Reproducibility  
+      * Find Gemini x Pub agreements
+
+    * Build the Multi-Source Dataset (MSD):
+
+      * Calculates the Crowdsourcing Consensus  
+      * Calculate Gemini, PubMed, and Human accuracies
+
+  * pseudo Pathway Curation (PPC)
+
+    * in development
+
+  * *in silico* Target Curation (isTC)
+
+    * in development
 
 
 
