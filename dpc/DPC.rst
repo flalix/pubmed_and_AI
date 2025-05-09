@@ -15,8 +15,8 @@ The Digital Pathway Curation (DPC) pipeline was designed and tested to address t
 
 .. image:: ../images/CSC.png
   :align: right
-  :width: 200
-  :height: 250
+  :width: 300
+  :height: 400
   :alt: CSC method
 
 

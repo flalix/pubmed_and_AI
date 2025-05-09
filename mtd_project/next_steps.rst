@@ -18,7 +18,7 @@ Next Steps
 In-development
 ==============
 
- - In silico Validation
+ - *In silico* Target Validation (isTV)
 
 
 Future steps

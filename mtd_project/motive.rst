@@ -22,7 +22,7 @@ Pipelines
 
       * Calculates Gemini Reproducibility  
       * Calculate One and Multi-Model Reproducibility  
-      * Find Gemini x Pub agreements
+      * Find Gemini x PubMed agreements
 
     * Build the Multi-Source Dataset (MSD):
 
@@ -33,7 +33,7 @@ Pipelines
 
     * in development
 
-  * *in silico* Target Curation (isTC)
+  * *in silico* Target Validation (isTV)
 
     * in development
 
