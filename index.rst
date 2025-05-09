@@ -13,8 +13,8 @@ Molecular Target Discovery pipeline (MTDp)
    :hidden:
    :caption: MTDp:
 
-   pipeline/motive
-   pipeline/next_steps
+   mtd_project/motive
+   mtd_project/next_steps
 
 .. toctree::
    :maxdepth: 2
