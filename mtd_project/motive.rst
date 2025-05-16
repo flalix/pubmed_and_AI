@@ -10,7 +10,8 @@ The “Molecular Pathway Discovery” is an open-source project divided in 4 pip
 The goal of this project is to provide a set of tools to help researchers in molecular biology and systems biology curate pathways and suggest possible genes and molecular targets for drug discovery.
 
 Pipelines
-=========
+===========
+
   * Best Cutoff Algorithm (BCA)
 
     * Build the LFC-FDR landscape
