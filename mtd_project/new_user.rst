@@ -1,4 +1,4 @@
-Deploy & New Project
+New User's Project
 ++++++++++++++++++++
 
 The Digital Pathway Curation (DPC) and Best Cutoff Algorithm (BCA) will soon be available for the community.
