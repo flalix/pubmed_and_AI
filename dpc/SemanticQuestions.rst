@@ -1,5 +1,5 @@
 Semantic Questions
-+++++++++
+++++++++++++++++++++
 
 One of the DPC goals is to evaluate Gemini's semantic capabilities. To address this goal, we generated four different but semantically similar questions to perform this task. These questions will broadly (“a pathway related to”) or specifically (“has a strong relationship to”) ask whether a particular pathway is involved in modulating a disease case. Additionally, the second variation focuses on whether the relevant findings can be found on PubMed by adding “<according to PubMed>”.
 

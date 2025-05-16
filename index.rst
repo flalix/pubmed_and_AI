@@ -44,6 +44,7 @@ The Digital Pathway Curation pipeline was designed to retrieve answers from dist
 
    mtd_project/motive
    mtd_project/next_steps
+   mtd_project/new_user
 
 .. toctree::
    :maxdepth: 2
@@ -55,8 +56,7 @@ The Digital Pathway Curation pipeline was designed to retrieve answers from dist
    dpc/SemanticQuestions
    dpc/Consensus
    dpc/CSC
-   dpc/source_code
-   dpc/how_to_use
+   dpc/confusion_matrices
 
 .. toctree::
    :maxdepth: 2
@@ -73,4 +73,18 @@ The Digital Pathway Curation pipeline was designed to retrieve answers from dist
    ppmod/pPMod
 
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: how_to_use
+
+   how_to_use/how_to_use_DPC
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: source
+
+   source/source_code
 

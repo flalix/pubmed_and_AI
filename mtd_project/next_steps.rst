@@ -1,11 +1,11 @@
-Steps
-+++++++
+MPD project steps
++++++++++++++++++++++
 
 
 Done
 ============
   - Published in GitHub: https://arxiv.org/abs/2505.01259
-  - Submitted to Nature Methdos
+  - Submitted to BMC Bioinformatics
 
 
 Next Steps
