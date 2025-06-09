@@ -3,7 +3,7 @@ version: "2"
 build:
   os: "ubuntu-22.04"
   tools:
-     - sphinx
+     sphinx: 8.2.3
 
 sphinx:
   configuration: ./conf.py
