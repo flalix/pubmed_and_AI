@@ -5,6 +5,5 @@ build:
   tools:
      - sphinx
 
-
 sphinx:
   configuration: ./conf.py
