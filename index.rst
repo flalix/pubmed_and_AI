@@ -52,7 +52,8 @@ Obs: image by chat-gpt (https://chatgpt.com/)
    :hidden:
    :caption: IA
 
-   aula02/oque_eh_ia
+   aula02/ia_historia_fase1
+   aula02/ia_fase2_3
    aula02/llm
    aula02/pesquisa_ia
 
