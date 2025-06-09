@@ -72,7 +72,7 @@ Resultados II
 .. warning::
    Para pesquisar, use preferencialmente 
      1. os termos do dicionário MESH da PubMed
-     2. letras em mínusculo ou maiúsculo, tanto fazem
+     2. letras em mínusculo ou maiúsculo, tanto faz
      3. o radical da palavra mais um ``*``
 
      exemplo: **heart disease***
@@ -94,5 +94,5 @@ Resultados II
   10. heart disease OR kidney failure: 1,906,740 results
 
 .. warning::
-   Repare que ``heart disease`` OR ``kidney failure`` com ou sem aspas gera o mesmo resultado pois devem ser conceitos. Mas, não tem significado usar o conector ``OR`` para unir dois conceitos diferentes. Em 9c temos a soma de 9a e 9b, um pouco menor, pois deve haver alguns poucos artigos de que tratam dois conceitos.
+   Repare que ``heart disease`` OR ``kidney failure`` com ou sem aspas gera o mesmo resultado pois são conceitos do dicionário MESH. Mas, não tem significado usar o conector ``OR`` para unir dois conceitos diferentes. Em 9c temos a soma de 9a e 9b, um pouco menor, pois deve haver alguns poucos artigos de que tratam dois conceitos.
 

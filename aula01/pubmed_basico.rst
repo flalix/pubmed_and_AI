@@ -19,10 +19,10 @@ Por exemplo, abre-se o *site* PubMed e escreve-se um palavra
 
 .. image:: ../images/pubmed.png
   :align: center
-  :width: 80%
-  :height: 220
+  :width: 90%
   :alt: PubMed and AI
 
+\
 
 
 Digite uma palavra ou termo
@@ -38,8 +38,7 @@ Depois de pesquisado deve aparecer um conteúdo como,
 
 .. image:: ../images/diabetes_searched.png\
   :align: center
-  :width: 80%
-  :height: 350
+  :width: 90%
   :alt: PubMed and AI
 
 \
