@@ -1,30 +1,23 @@
-.. Molecular Target Discovery pipeline (MTDp) documentation master file, created by
-   sphinx-quickstart on Sat Apr 19 18:15:04 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Como pesquisar na PubMed e utilizando Inteligência Artificial (IA): teoria, coneitos e prática.
 
-Molecular Target Discovery project (MTDp)
-=========================================
+Como pesquisar na PubMed e utilizando Inteligência Artificial?
+===============================================================
 
-.. image:: ./images/logo_mtdp.png
+.. image:: ./images/pubmed_ai_chatgpt.png
   :align: right
   :width: 200
   :height: 200
-  :alt: MTDp
+  :alt: PubMed and AI
 
 
-The “Molecular Pathway Discovery” project is an open-source project that began in the middle of 2021 due to the COVID-19 pandemic. The goal of this project is to provide a set of tools to help researchers in molecular biology and systems biology curate pathways and suggest possible genes and molecular targets for drug discovery. It consists of 4 pipelines:
+Este é um mini-curso para introduzir alunos a como pesquisar na PubMed. Conhecer sua capacidade e limitações. 
 
-  - Best Cutoff Algorithm (BCA)
-  - Digital Pathway Curation (DPC)
-  - pseudo Pathway Modulation (pPMod)
-  - *in silico* Target Curation (isTC)
+Na segunda parte, introduzimos IA e como utilizá-la para pesquisa científica.
 
-The current documentation focuses on the first two pipelines: BCA and DPC. 
- 
-DPC introduces significant methods for evaluating Large Language Models (LLM), particularly in Bioinformatics and Systems Biology. 
+Por fim, fazemos uma comparação entre PubMed e pesquisa no Gemini, e mostramos como a IA pode ajudar na pesquisa científica, atualmente. Neste útlimo tópico mostramos como acessar estas ferramentas com Python/WebServices, ou seja, para obter dados em auantidade para pesquisa e estatísica. Logo, a seguir, mostramos cnceitos estatísticos. Por fim, encerramos apresentando modelos de Refinamento de LLMs e divagações sobre o futuro da pesquisa em literatura científica.
 
-The Digital Pathway Curation pipeline was designed to retrieve answers from distinct semantic questions by formulating queries crossing a disease to biomedical pathways. We devised and tested a specific query format, which produced systematic answers that could be quantified. Next, we developed different methods to calculate precise metrics for evaluating the LLM's reproducibility, consensus, and accuracy. The Multi-Model Consensus (MMC) method demonstrated strong results by achieving the consensus among multiple Gemini models. MMC accuracy outperforms PubMed and Human accuracies. Most notably, the final approach, the "confusion matrices method", was able to evaluate the Gene Set Enrichment Analysis (GSEA) results and identify False Positive and False Negative Pathways. Uncover False Negative Pathways opens new opportunities and hypotheses for future researchers.
+
+Obs: image by chat-gpt (https://chatgpt.com/)
 
 
 .. Note:: 
@@ -40,51 +33,37 @@ The Digital Pathway Curation pipeline was designed to retrieve answers from dist
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: MTDp
+   :caption: PubMed
 
-   mtd_project/motive
-   mtd_project/next_steps
-   mtd_project/new_user
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: DPC
-
-   dpc/DPC
-   dpc/Ensemble
-   dpc/SemanticQuestions
-   dpc/Consensus
-   dpc/CSC
-   dpc/confusion_matrices
+   aula01/introducao
+   aula01/pubmed_basico
+   aula01/pubmed_2palavras
+   aula01/pubmed_concept_2qual
+   aula01/pubmed_removendo_FN
+   aula01/teoria_conjuntos
+   aula01/algebra_bool
+   aula01/matriz_de_confusao
+   aula01/pubmed_avancado
+   aula01/pubmed_avancado2
+   aula01/mesh_onto
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: BCA
+   :caption: IA
 
-   bca/BCA
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: pPMod
-
-   ppmod/pPMod
-
+   aula02/oque_eh_ia
+   aula02/llm
+   aula02/pesquisa_ia
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: how_to_use
+   :caption: PubMed x IA
 
-   how_to_use/how_to_use_DPC
-
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: source
-
-   source/source_code
+   aula03/limitacoes_pubmed
+   aula03/webservices
+   aula03/pubmed_gemini
+   aula03/sensibil_especif
+   aula03/encerramento
 
