@@ -7,14 +7,12 @@ Dividindo para conquistar
 --------------------------
 
 
-Vamos supor que queremos pesquisar:
-
-**Hipertensão Arterial em jovens, crianças ou recém-nascidos**
+Vamos supor que queremos pesquisar: **Hipertensão Arterial em jovens, crianças ou recém-nascidos**
 
 Como fazer?
 ============
 
-Criando várias pesquisas:
+A recomendação é criar várias pesquisas:
   1. arterial hypertension [All Fields]
   2. arterial hypertension [Title/Abstract]
   3. young [Title/Abstract]
@@ -30,7 +28,7 @@ Criando várias pesquisas:
 
 \
 
-Concatenando com termos lógicos
+E depois, fazemos uma pesquisa final concatenando os termos e usando conectores booleanos (AND e OR e parêntesis).
 
 .. image:: ../images/pubmed_arterial_hyp_advanced_query_2345.png
   :align: center
@@ -39,7 +37,7 @@ Concatenando com termos lógicos
 
 \
 
-Repare como é mais fácil montar os ANDs e ORs. Jovens, Crianças e Neonatos ficam entre parentesis e utilizam a cláusula OR para se UNIR todos eles. Já **hipertensão arterial** fica de fora, seguida do conector booleano AND, pois queremos esta patologia neste grupo / faixa etária.
+Repare como é mais fácil montar os ANDs e ORs. Jovens, Crianças e Neonatos ficam entre parêntesis e utilizam a cláusula OR para se UNIR todos eles. Já **hipertensão arterial** fica de fora, à esquerda, seguida do conector booleano **AND**, pois queremos pesquisar esta patologia neste grupo / faixa etária.
 
 Então funcionou? Tudo Correto?
 
@@ -57,11 +55,11 @@ Vamos analisar os resultado,
 
 \
 
-Vemos que aparecem palavaras que não havíamos pesquisado como **childhood**, **neonate**, **infant**, e **adolescent**.
+Vemos que aparecem palavaras que não havíamos pesquisado como **childhood**, **neonate**, **infant**, e **adolescent**. Você verá que este problema não existe em pesquisas com IA, uma vez que semanticamente são palavras parecidas, ocupam o espaço de embedding similar (ver nas próximas sessões).
 
-Logo, podemos melhorar nossa pesquisa adiconando estas palavras. E ao final teremos váriso ORs encadeados.
+Logo, podemos melhorar nossa pesquisa adiconando estas palavras. E ao final teremos vários **OR**s encadeados.
 
-Aqui trocamos **children** e **childhood** por **child*** (com um asterístico ao fim).
+Aqui trocamos **children** e **childhood** por **child*** (com um asterístico ao fim, um wildcard).
 
 
 .. tip::
@@ -83,7 +81,7 @@ Aqui trocamos **children** e **childhood** por **child*** (com um asterístico a
 
 \
 
-.. warning::
+.. note::
    **Query** - #2 AND (#3 OR #5 OR #7 OR #8 OR #9)
 
 \
@@ -103,6 +101,8 @@ Passamos de 2911 artigos para 3909. Descobrimos, possivelmente, 998 FN!
 
 \
 
+.. warning::
+   Observem como é difícil indenticar Falsos Negativos (FN)
 
 
 
