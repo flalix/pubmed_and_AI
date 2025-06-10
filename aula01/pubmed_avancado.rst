@@ -10,8 +10,9 @@ Há duas formas para pesquisar:
 
    1.  (arterial hypertension) AND (newborn OR children OR young )
    2.  (arterial hypertension) NOT adult NOT elder
+   3.  (arterial hypertension) AND (newborn OR children OR young ) NOT adult NOT elder
 
-A segunda forma, excluindo Adultos (adult) e Idosos (elder) é pior pois estes conceitos podem não ser encontrados no título e abstract, como veremos a seguir. Porém este exemplo serviou para apresentar o **conector booleano NOT**.
+A segunda forma, excluindo Adultos (adult) e Idosos (elder) é pior pois estes conceitos podem não ser encontrados no título e abstract, como veremos a seguir. Aqui apresentamos o **conector booleano NOT**: NOT adult = excluir **adult**. A terceira forma de se escrever a *query* exclui **adultos** e **idososos**. Mas, lembrem-se que sempre podemos encontrar artigos que estudam, p.ex., **Jovens**, **Adultos** e **Idosos** e estaremos excluindo estes artigos.
 
 Possivelmente a primeira forma é melhor, mas há erros que serão apontados neste exemplo, mais a adiante.
 
@@ -51,7 +52,7 @@ Caso você clique em <Advanced>
 Primeiro *query*
 -----------------
 
-Vamos iniciar o nosso primeiro *query* (indagação, pergunta) usando a tela inicial do PubMed. De acordo que escrevemos "arterail hyp" o apliativo autcompletará com palavras ou conceitos de seu dicionário de termos em biomedicina.
+Vamos iniciar o nosso primeiro *query* (indagação, pergunta) usando a tela inicial do PubMed. De acordo que escrevemos "arterial hyp" o aplicativo autocompletará com palavras ou conceitos de acordo com seu dicionário de termos em biomedicina.
 
 
 .. image:: ../images/pubmed_search_arterial_hypertension.png
@@ -64,7 +65,7 @@ Vamos iniciar o nosso primeiro *query* (indagação, pergunta) usando a tela ini
 Aceitando um termo
 ===================
 
-Após aceitar um termo, clique sobre "arterial hypertension", dê um clique em <Search> (pesquisar)
+Para aceitar o termo desejado, neste caso, clique sobre "arterial hypertension", e dê um clique em <Search> (pesquisar)
 
 .. image:: ../images/pubmed_arterial_hypertension_click.png
   :align: center
@@ -76,7 +77,7 @@ Após aceitar um termo, clique sobre "arterial hypertension", dê um clique em <
 Advanced & History
 =====================
 
-Agora clique me <Advanced> e voltará ao formulário de **História** (*History and Search Details*). Vea 
+Agora clique me <Advanced> e voltará ao formulário de **História** (*History and Search Details*). Verá que existe a pesquisa 1 ou #1.
 
 
 .. image:: ../images/pubmed_arterial_hyp_advanced.png
@@ -86,7 +87,7 @@ Agora clique me <Advanced> e voltará ao formulário de **História** (*History 
 
 \
 
-Observe que ao clicar na primeira linha (#1 - pesquisa 1), ela se abrirá mostrando a estratégia de busca interna.
+Observe que ao clicar na primeira linha (#1 - pesquisa 1), ela se abrirá mostrando a estratégia de busca interna do *engine* da PubMed.
 
 
 .. image:: ../images/pubmed_arterial_hyp_advanced_history.png
@@ -99,7 +100,7 @@ Observe que ao clicar na primeira linha (#1 - pesquisa 1), ela se abrirá mostra
 Erro grave: **all fields**
 ==============================
 
-Como já explicamos anteriormente, o retorno de uma pesquisa pode trazer referências erradas ou indesejadas, a isto denominamos de Falsos Positivos (FP). Ao clicar na primeira linha da História, vemos que aparece ao lado de cada termo a pesquisar entre chaves **all fields**. E isto é altamente indesejado. Porque?
+Como já explicamos anteriormente, o retorno de uma pesquisa pode trazer referências erradas ou indesejadas, a isto denominamos de Falsos Positivos (FP). Ao clicar na primeira linha da História, vemos que aparece ao lado de cada termo da pesquisa, entre chaves, **all fields**. E isto é altamente indesejado. **Porque?**
 
 .. image:: ../images/pubmed_arterial_hyp_advanced_history_allfields.png
   :align: center
@@ -108,13 +109,13 @@ Como já explicamos anteriormente, o retorno de uma pesquisa pode trazer referê
 
 \
 
-De forma siplificada, um artigo cientifico é divido em título, autores, abstract, *keyowords*, texto, referências e material suplemetar. Quando se pesquisa **All Fieldes**, todos estes campos são pesqisados. Logo, p.ex., um artigo de Saúde Pública pode ter como referência um estudo clínico de **Hipertensão Arterial**, e não queremos um Artigo de Saúde Pública. Logo, **All Fields** trará vários falsos positivos consigo.
+De forma siplificada, um artigo cientifico é divido em título, autores, abstract, palavras-chaves (*keyowords*), texto, referências e material suplementar. Quando se pesquisa **All Fieldes**, todos estes campos são pesqisados. Logo, p.ex., um artigo de Saúde Pública pode ter como referência um estudo clínico de **Hipertensão Arterial**, e não queremos um Artigo de Saúde Pública. Logo, **All Fields** trará vários falsos positivos consigo, pois permite pesquisar em referências.
 
 
 Melhorando a pesquisa
 -------------------------
 
-Para se reduzir o número de FP, devemos colocar seguindamente a cada termo a chave **Title/Abstract**, de forma a se restringir a pesquisa somente a Títulos e Abstacts. Com isto podemos gerar Falsos Negativos (FN), correto? Sim, correto. Mas, dificilmente um artigo de hipertensão arterial não conterá estas palavras em Título e Abstract. Logo, este é o risco que corremos.
+Para se reduzir o número de FP, devemos colocar seguindamente a cada termo o termo **Title/Abstract** (entre colchetes), de forma a se restringir a pesquisa somente a Títulos e Abstacts. Com isto podemos gerar Falsos Negativos (FN), correto? Sim, correto. Mas, dificilmente um artigo de hipertensão arterial não conterá estas palavras em Título ou no Abstract. Logo, este é o risco que corremos.
 
 Adicionando a chave **Title/Abastract**.
 
@@ -129,7 +130,7 @@ Adicionando a chave **Title/Abastract**.
 Impressionante resultado
 =========================
 
-Após clicar em <Search> voltamos para tela inicial e de 653 mil resultados com **All Fields** chegamos a aproximadamente 48 mil resultados com **Title/Abstract**!
+Após clicar em <Search> voltamos para tela inicial e de 653 mil resultados com **All Fields** chegamos a aproximadamente 48 mil resultados com **Title/Abstract**! 
 
 
 .. image:: ../images/pubmed_arterial_hyp_advanced_title_abst_result.png
@@ -138,3 +139,5 @@ Após clicar em <Search> voltamos para tela inicial e de 653 mil resultados com 
   :alt: PubMed Strategy
 
 
+.. warning::
+   Desafio: Será que geramos tantos FN?
