@@ -1,102 +1,73 @@
-IA moderna
-++++++++++++++++
+IA moderna - a partir de 2017
+++++++++++++++++++++++++++++++
 
-Introdução
-------------
+Base Inicial - 2012-2017
+------------------------------
 
-É muito difícil e complicado explicar o que é Intelgiência Artiticial (IA) nos dias atuais (2025). Mas, vamos tentar explicar com história e exemplos. Uma vez que é necessário um bom conhecimento de matemática e aprendizado de máquina (*Machine Learning*), nós não vamos nos aprofundar e tentar mostrar de maneira metafórica os conceitos. Por fim, mostraremos como utilizar a IA focando em recuperação de informações científicas, em especial, biomédicas.
+Até os anos 2000, vários algoritmos de Machine Learning (ML) estavam bem estabelecidos e eram baseados em estatísticas e modelos matemáticos como Cadeias de Markov (utilizada em RNN - redes neurais recorrentes, útil para análise de voz e entendimento de textos). 
 
+De 2012 a 2017, vários algoritmos de processamento de texto e imagem de grande volume foram criados. Isto porque a partir de 2012 a NVidia disponibilizou placas computacionais baseadas em GPUs. Ou seja, placas de Unidades Gráficas que processavam informações em alto volume, pois podiam paralelizar cálculos com centenas, e hoje, milhares, de GPUs.
 
-História
------------
+De 2000 a 2016 vários algoritmos baseados em Deep-Learning (ANN profundas, Redes Neurais Profundas, com muitas *hidden layers*) foram propostos e ainda são utilizados até hoje. Em linguagem natural (ou NLP - *natural language processing*) as Redes Neurais Recorrentes foram implementadas, mas foram encontradas várias limitações (esta discussão esta fora do escopo deste texto: procure por *Vanishing gradient problem*). Porém, para imagens e vídeos houve um enorme sucesso e vários algoritmos de **Redes Convulucionais** (CNN - *Convolutional Neural Network*) foram implementados e testados. Apesar de superarem em muito a acurácia das ML *tradicionais*, também se encontrou limitações nas novas *Depp Learnings*.
 
+A revolução **das máquinas que conversam**, ou seja, das máquinas que **passam no teste de Touring** começou em 2013, com dois artigos de pesquisadores da Google criando o conceito de **embedding**. *Embedding* é uma téncnica de transformação de dados complexos em representações de menor dimensão, mais fáceis de processar. Esses modelos são o passo inicial para a utilização dos novos modelos de deep-learning, citados mais adiante. 
 
-.. image:: ../images/jamonycajal.png
-  :align: left
-  :width: 50%
-  :alt: jamonycajal
+*Embeding* é transformar textos em tokens (`radical das palavras`) e estes são tranformados em vetores no **espaço multidimensional de embeddings**. Ou seja, dados 2000 livros, pode-se vetorizar cada frase, e tokens (ou conceitos) que são próximos no espaço dos textos, também deverão estar próximos no espaço de *embedding*. Portanto, poderemos encontrar um conjunto de palavras que definem um coneito semântico umas próximas às outras. Por exemplo: rei e rainha devem ficar perto um do outro e distantes de laranja e maçã. O mais interessante é que se pode fazer cálculos matemáticos de distâncias onde **rei - rainha** dever ter um distância próxima a **homem - mulher**, onde **-** é subtração e **rei**, **rainha** ... e todas as palavras são vetores neste espaço.
 
-
-.. image:: ../images/neuron.png
-  :align: right
-  :width: 45%
-  :alt: Neuron
-
-Na década de 1870, o cientista Santiago Jamón y Cajal, espanhol, desenhou os primeiros neurônios e criou a neurologia. Seus trabalhos foram fundamentais para diversas áreas de Biologia e da Medicina e também serviram de modelo aos primeiros **Neurônios Artificiais**.
-
-ref: https://www.linkedin.com/pulse/art-science-santiago-ram%C3%B3n-y-cajal-tim-vancamp/
-
-https://blogs.scientificamerican.com/illusion-chasers/santiago-ramon-y-cajal-the-young-artist-who-grew-up-to-invent-neuroscience/
-
-\
-\
-
-Na década de 1940 von Neuman e Alan Turing *desenharam* e propuseram o primeiro computador. Em 1946 foi construído o ENIAC (Electronic Numerical Integrator and Computer). Naquele momento, possivelmente, alguns cientistas entendeream que o mesmo tinha um severo fator limitante: seus cálculos eram seriais. Em 1943 Warren McCulloch e Walter Pitts propuseram um **neurônio artificial**, sua vantagem: processamento paralelo.
-
-O modelo de McCulloch e Pitts mimetiza um neurônio de Cajal, tendo várias entradas (*inputs*) um corpo celular (Soma) que faz uma operação como adição e uma saída φ que é uma função de transformação ou normalização (função(soma entradas) --> saída ou *output), como vemos no desenho abaixo.
-
-.. image:: ../images/neuron_model.png
-  :align: center
-  :width: 60%
-  :alt: Neuron Model
-
-ref: https://en.wikipedia.org/wiki/Artificial_neuron
-
-A seguir em 1949, Touring, precocemente imaginou que a máquina, ainda que primitiva, poderia ser *inteligente*. E propôs o **Teste de Touring** (ver https://en.wikipedia.org/wiki/Turing_test). Feliz ou infelizmente, John McCarthy cunhou o termo **Inteligência Artificial**, mas o correto é a denominação **Aprendizado de Máquina** (*Machine Learning* ou ML).
-
-\
-\
-
-Em 1957, Frank Rosenblatt, monta o prmeiro circuito elétrico que mimetizava o **Neurônio Artificial**. Daí para frente o planeta estava pronto para sair da *Era Industrial* e entrar na *Era da Informação*. Porém, a evolução dos computadores seriais foi ótima e exponencial, sendo que no início dos anos 80, devido a minituarização dos circuitos eletrônicos, surge a micro informática e os computadores pessoais. Já a teoria e desenvolvimento do circuitos neurais artificiais passou pela grande crise denominada o **Inverno da IA** (de ~1970-1990).
-
-ref: https://iatracker.com.br/glossario/o-que-e-xor-problem/
-
-https://en.wikipedia.org/wiki/AI_winter. 
+Miilov, Sutskever, Chen, Corrado e Dean, da Google, **tiverame a brilhante ideia** de construir o **espaço/transformada** de **embeddings** ao indagarem se a palavra (token) **Air** e **Canada** deveriam estar longe de **Air Canada**. O prblema agora era criar este hiper-espaço de embeddings e como treinar milhares de textos contendo milhões de palavras. As referências a seguir e vários artigos técnicos explicam como eles conseguiram, e hoje há algorimos com Word2Vec. Portanto, no espaço de **embeddings** (transformada de palavaras e conceitos) **Air**, **Canada** e **Air Canada** devem ser conceitos distintos.
 
 
-Linha do Tempo
----------------
-
-.. image:: ../images/ai_timeline.jpg
-  :align: center
-  :width: 90%
-  :alt: AI timeline
-
-\
-
-ref: Bellini V, Cascella M, Cutugno F, Russo M, Lanza R, Compagnone C, Bignami EG. Understanding basic principles of Artificial Intelligence: a practical guide for intensivists. Acta Biomed. 2022 Oct 26;93(5):e2022297. doi: 10.23750/abm.v93i5.13626. PMID: 36300214; PMCID: PMC9686179.
-
-Do ínicio dos anos 90 até 2012 há a primeira era tecnologica da IA, conhecida como Deep-Learning (DL). DL é o encadeamento de neurônios em várias camadas. Ou seja, à esquerda há a *entrada) ou *input*, à direita há a *saída* ou *output* e no meio as camadas de *neurônios escondidas* denominadas *hidden layers*. 
-
-Um esquema de ANN,
+**Referência:**
+Mikolov T et al at Google; Distributed Representations of Words and Phrases and their Compositionality; 2013, Oct, https://doi.org/10.48550/arXiv.1310.454
+Mikolov T et al at Google; Efficient Estimation of Word Representations in Vector Space; arXiv:1301.3781v3 [cs.CL] 7 Sep 2013
 
 
-.. image:: ../images/ann.jpg
-  :align: center
-  :width: 90%
-  :alt: AI timeline
-
-\
+Deep-Learning a partir de 2017
+---------------------------------
 
 
-A **grande sacada** foi como *ajustar os pesos* de cada neurônio (valores sobre as funções dos neurônios) e ir modificando os mesmos de forma que o *output* fosse igual ou próximo a determnados valores. Portanto, na etapa de treinameto de uma ANN, neurônios importante vão se aproximando do peso 1, e neurônios menos importantes ficam no intervalo de pesos entre 0.1 e 0.9 e aqueles que não colaboram com o resultado são desligados, ficando com peso igual a zero. A técnica é levar os valores de entrada para cada camada, passando por cada neurônio e calculando a função neural, num algoritmo denominado "feedforward". Os neurônio de saída (*output*) preditos, são confrontados com o resultado desejado (p.ex.: entrada 1, 3, 5 -> São, entradas 2, 4, 6 --> Doente). O erro é mensurado numa função denominada *Custo*. O erro é propagado de volta (*backpropagation*), até a que a função de custo atinja um mínimo. Neste momento a rede estará treinada e pronta para se analisar se funciona com novos dados (dados de teste). O que se armazena, ao final, é a topologia da rede e os pesos encontrados que minimizaram a função custo.
-
-Caso a função da ANN seja o de um classificador então a rede se ajusta para acertar o *output* de classificção, como: 1) doente ou são, 2) rico, médio, pobre, 3) 5 níveis de inflamação, etc). Já se a função da ANN é de calcular uma regressão, o *output* torna-se, p.ex., 50 valores discretos de uma função matemática num determinado domínio de valores. Como exemplo: a) ajustar a uma parábola, b) um pedaço de curva qualquer, c) semi-círculo.
-
-Mas, como se define **Doente** e **São** numa ANN? Isto é simples, denominamos **one-hot encoding**, ou seja, basta numerar os valores categóricos: **encode**: Doente:0, São:1 e **decode**: 0:Doente e 1:São. Agora a ANN pode trabalhar, pois só há números.
+Dois algoritmos transformaram **a velha ML** para a **nova Deep Learning**. 
 
 
-A seguir mostramos um modelo de simulação de uma *Artificial Neural Network* (ANN) utilizando tensorflow (uma das ferramentas para programação de ANNs).
 
-\
+Attention e Transformers
+==========================
 
-.. image:: ../images/playground_tensorflow.png
-  :align: center
-  :width: 90%
-  :alt: AI timeline
+O primeiro artigo **"Attention Is All You Need"** foi publicado em 2017 por Vaswani, Shazeer, Parmar et al., da Google, onde os autores propuseram os **Transformers**. Um Transformer, é uma arquitetura de rede neural que dispensa a recorrência, ou seja, não utiliza RNN. Este modelo de ANN consegue mimetizar um mecanismo de **autoatenção** para traçar dependências globais entre entrada e saída de uma rede neural. Esse mecanismo consegue processar sentenças inteiras de uma só vez - em vez de uma de cada vez - logo, a velocidade de treinamento e o custo de inferência diminuem em comparação com RNNs, especialmente por esta operação ser paralelizável. A arquitetura de **Transformers** revolucionou a NLP, e este modelo também está sendo usado em procesamento de Imagens, Áudios, etc.
 
-\
+**Referência:**
+Vaswani et al, Google Brain, Attention Is All You Need, arXiv:1706.03762v5 [cs.CL] 6 Dec 2017
 
-Vamos Simular? https://playground.tensorflow.org/
 
+.. Note::
+   **Onde estudar** 
+  1. para quem quiser ir mais a fundo há um execelente material em https://learn.deeplearning.ai/
+  2. há excelentes cursos no Coursera e Udemy
+
+.. warning::
+   **Machine Learning** envolve todos os estudos de algoritmos computacionais desenhados para  *raciocinar*, classficar, clusterizar (aglomerar), ou fazer regressões. **Deep Learning** é uma subárea de **ML** que utilia **ANN** com muitas camadas neurais, fato que só foi possível a partir de 2012, aproximamente, com o advento das placas de processamento com centenas/milhares de GPUs. Ou seja, DL faz as mesmas tarefas que ML-clássica, porém, por poder conter uma grande *hidden layer*, chega a uma precisão, sensiblidade e especificidade muito melhor.
+
+
+BERT: Bidirectional Encoder Representations from Transformers
+===============================================================
+
+Assim como McCulloch e Pitts criaram o Neurônio Artificial pensando no Neurônio de Cajal, em 2018 pesquisadores da Google pensaram como mimetizar a *Short Term Memory* e a *Long Term Memory*, tão estudadas na neurologia. Ou seja, para se adivinhar uma palavra ou interpretar um texto, não basta `conhecer o passado`: frases e parágrafos anteriores! Ao se `conhecer o futuro`, frases e parágrafos posteriores, provavelmente a interpretação será muito mais acurada.
+
+
+O BERT, *Bidirectional Encoder Representations from Transformers*, treina **modelos de linguagem natural** com base no conjunto completo de palavras de um texto. Esta técnica é denominada de treinamento bidirecional, uma vez que analisa palavras anteriores (passado) e palavras posteriores (futuro) em relação à palavra estudada num dado momento. Os modelos de NLP tradicionais são sempre treinados em ordem sequencial (indo para o futuro, para a direita do texto, só conhecendo o passado). Já o BERT foi denominado pela Google como um processo **profundamente bidirecional**, pela simples razão de que o verdadeiro significado das palavras só pode ser obtido conhecendo-se o passado e o futuro do texto ou palavra `atual`.
+
+Por exemplo, seria difícil para uma máquina `entender` a palavra **Canada**, como sendo um país, mas conhecendo uma só palavra anterior **Air Canada** descobre que se trata de uma empresa aérea. Já `meninas` podem não ser **crianças do sexo feminino**, pois o texto a seguir relata "as meninas chegaram, disse D.Esthela, ao se referir às jovens senhoras com mais de 80 anos que vieram comemorar seu aniversário".
+
+
+Referência: Deep Learning Book (em português): 
+
+https://www.deeplearningbook.com.br/
+
+https://www.deeplearningbook.com.br/o-que-e-bert-bidirectional-encoder-representations-from-transformers/
+
+
+Estamos prontos para a nova era da IA
+----------------------------------------
+
+Agora, em 2018-2019, estamos prontos! Podemos treinar pequenos ou grandes modelos utilizandos os algoritmos de **Attention** e **BERT** para criar LLMs. Mas, o que são LLMs?
 
