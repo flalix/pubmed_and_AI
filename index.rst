@@ -14,7 +14,7 @@ Este é um mini-curso para introduzir alunos a como pesquisar na PubMed. Conhece
 
 Na segunda parte, introduzimos IA e como utilizá-la para pesquisa científica.
 
-Por fim, fazemos uma comparação entre PubMed e pesquisa no Gemini, e mostramos como a IA pode ajudar na pesquisa científica, atualmente. Neste útlimo tópico mostramos como acessar estas ferramentas com Python/WebServices, ou seja, para obter dados em auantidade para pesquisa e estatísica. Logo, a seguir, mostramos cnceitos estatísticos. Por fim, encerramos apresentando modelos de Refinamento de LLMs e divagações sobre o futuro da pesquisa em literatura científica.
+Por fim, fazemos uma comparação entre PubMed e pesquisa no Gemini, e mostramos como a IA pode ajudar na pesquisa científica, atualmente. Neste útlimo tópico mostramos como acessar estas ferramentas com Python/WebServices, ou seja, para obter dados em quantidade para pesquisa e estatísica. Logo, a seguir, mostramos conceitos estatísticos. Por fim, encerramos apresentando outras soluções utilizando LLMs e divagações sobre o futuro da pesquisa em literatura científica.
 
 
 Obs: image by chat-gpt (https://chatgpt.com/)
