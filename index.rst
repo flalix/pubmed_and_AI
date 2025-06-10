@@ -56,6 +56,7 @@ Obs: image by chat-gpt (https://chatgpt.com/)
    aula02/ia_fase2_3
    aula02/llm
    aula02/pesquisa_ia
+   aula02/pesquisa_ia_refbib
 
 .. toctree::
    :maxdepth: 2
