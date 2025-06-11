@@ -3,7 +3,6 @@ Comparando PubMed x Gemini
 
 
 .. Note:: 
-Under construction.
-
+   Under construction.
 
 
