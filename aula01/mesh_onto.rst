@@ -7,13 +7,13 @@ O que é uma ontologia biomédica?
 Introdução
 =============
 
-Uma ontologia é  uma representação estruturada do conhecimento no domínio biomédico, projetada para ser compreendida tanto por humanos quanto por computadores. As primeiras ontolgias foram criadas para se extrair conhecimento das páginas da internet e definidas pela W3C (https://www.w3.org/), órgão regulador da internet.
+Uma `ontologia biomédica` é  uma representação estruturada do conhecimento no domínio biomédico projetada para ser compreendida tanto por humanos quanto por computadores. As primeiras ontolgias foram criadas para se extrair conhecimento das páginas da internet e definidas pela W3C (https://www.w3.org/), órgão regulador da internet.
 
-Uma ontologia biomédica é um grafo onde termos são nós, relacionados entre si por conexões (edges) que são verbos (ações). Ela define conceitos, suas relações e propriedades de forma precisa e padronizada, permitindo armazenamento, recuperação e análise de dados mais eficientes.
+Uma ontologia biomédica é um grafo onde os termos são nós, relacionados entre si por conexões (*edges*) que são verbos (ações). Ela define conceitos, suas relações e propriedades de forma precisa e padronizada, permitindo armazenamento, recuperação e análise de dados mais eficientes.
 
 Através de ontologias podemos extrair conhecimento e verificar se frases ou textos estão corretos.
 
-As ontolgoia vem ganhando incrível evidência nos últimos anos, pois ela foi adicionada a complexos *frameworks* ligados à Inteligência Artificial para dar consistência semântica e científica às pesquisas nesta área (ver: https://www.slolab.ai/ e https://biochatter.org/latest/)
+As ontolgias vêm ganhando incrível evidência nos últimos anos, pois elas foram integradas a complexos *frameworks* ligados à Inteligência Artificial para dar consistência semântica e científica às pesquisas em liguagem natural (*queries*) (ver: https://www.slolab.ai/ e https://biochatter.org/latest/)
 
 
 Exemplo
@@ -27,7 +27,9 @@ A seguir um pequeno exemplo de uma ontologia:
   :width: 90%
   :alt: Ontology
 
-\
+
+Parte de uma Ontologia para o **Sistema Imunológico**. Exemplo: (cell activation) faz parte da (resposta imune); já (resposta inflamatória) é uma (resposta imune)
+
 
 link: https://tools.dice-database.org/GOnet/doc/index
 
