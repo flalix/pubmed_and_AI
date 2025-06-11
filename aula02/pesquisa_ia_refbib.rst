@@ -1,24 +1,27 @@
 Pesquisar referências em IA
 +++++++++++++++++++++++++++++
 
-Vamos uma pergunta **difícil** à máquina de IA da Google (Gemma) e ao Chat-GPT. 
+Vamos fazer um deseafio, ou seja, uma pergunta **muito difícil** à máquina de IA da Google (Gemma) e ao Chat-GPT. 
 
 Meta: trazer referências bibliográficas da "Doença de Gaucher" e "Experimentos de Single-Cell"
 
-Sabemos que **não há experimentos de Single-Cell para Gaucher**, mas vamos ver o que os aplicativos nos respondem.
+Neste momento, **desconhecemos se há experimentos de Single-Cell para Gaucher**, e vamos desafiar a máquina de IA Google e Chat-GPT.
 
 .. warning::
-   Porém, dialogando com Chat-gpt, este foi capaz de achar uma referência! Fantástico.
+   Resultado: dialogando com Chat-gpt, este foi capaz de achar uma referência! Fantástico.
 
+.. note::
+   Refinando a pesquisa no PubMed achamos 8 artigos, mas há vários FP!
 
+\
 
-Perguntando sobre referências bibliográficas
--------------------------------------------------
+Perguntando ao Gemma (Google)
+--------------------------------
 
-Query: Which are the official bibliography references for "Gaucher disease" and "Single-Cell experiments".
+Query: Which are the official bibliographic references for "Gaucher disease" and "Single-Cell experiments".
 
-Gemma: Resposta
-================
+Resposta
+============
 
 **Errado**, o pesquisador está errado, pois esqueci de colocar **Contexto**. 
 
@@ -29,7 +32,7 @@ Gemma: Resposta
 Refazendo a pergunta:
 ----------------------
 
-Query: Which are the official bibliography references for "Gaucher disease" and "Single-Cell experiments". Context: single-cell experiments are experiments like scRNA-seq from 10x Genomics, Illumina, and others since 2017 and Gaucher disease is an inherited metabolic disorder caused by a deficiency of the enzyme glucocerebrosidase.
+Query: Which are the official bibliographic references for "Gaucher disease" and "Single-Cell experiments". Context: single-cell experiments are experiments like scRNA-seq from 10x Genomics, Illumina, and others since 2017 and Gaucher disease is an inherited metabolic disorder caused by a deficiency of the enzyme glucocerebrosidase.
 
 Gemma: Resposta
 ================
@@ -48,8 +51,8 @@ These papers directly apply single-cell technologies to study Gaucher Disease pa
 
 .... <more>...
 
-Análise Gemma
----------------
+Análise da Respota do Gemma
+---------------------------------
 
 1.  Single-cell transcriptomics reveals cellular heterogeneity and inflammatory signatures in Gaucher disease. *Blood*, *136*(18), 1988 -2001. (PMID: 32724649) - **ERRADO**
 2.  Single-cell RNA sequencing reveals altered macrophage phenotypes in Gaucher disease (PMID: 34386814) - **ERRADO**
@@ -71,15 +74,16 @@ Resposta final do Gemma
 You are absolutely right to call me out on that. I sincerely apologize...
 I am unable to reliably provide a correct bibliography at this time. I recommend using PubMed, Google Scholar, or other academic databases directly to search for the relevant literature, using the search terms I previously suggested.
 
-
+\
+\
 
 Perguntando ao Chat-GPT
 -------------------------
 
-Query: Which are the official bibliography references for "Gaucher disease" and "Single-Cell experiments". Context: single-cell experiments are experiments like scRNA-seq from 10x Genomics, Illumina, and others since 2017 and Gaucher disease is an inherited metabolic disorder caused by a deficiency of the enzyme glucocerebrosidase.
+Query: Which are the official bibliographic references for "Gaucher disease" and "Single-Cell experiments". Context: single-cell experiments are experiments like scRNA-seq from 10x Genomics, Illumina, and others since 2017 and Gaucher disease is an inherited metabolic disorder caused by a deficiency of the enzyme glucocerebrosidase.
 
-Chat-GPT: Resposta
-===================
+Resposta
+===============
 
 ## 🧬 Gaucher Disease - 🧪 Single-Cell Experiments (scRNA-seq and Multi-Omics since 2017)
 
@@ -115,8 +119,8 @@ Key papers and guidelines for droplet-based and multi-omics scRNA-seq methods:
 * Tirosh I, et al. *Science.* 2016;352(6282):189-196.
 * Macaulay IC, Haerty W, Kumar P, et al. *Nat Methods.* 2015;12:519-522.
 
-Análise Chat-GPT
------------------
+Análise da Resposta do Chat-GPT
+---------------------------------
 
 **ERRADO** trouxe respostas de sc-RNA-Seq mas não de Gaucher (isto está correto!), mas confunde o pesquisador.
 
@@ -129,8 +133,15 @@ Análise Chat-GPT
 7. “Exponential scaling of single-cell RNA-seq in the last decade.” 2017 arXiv - **ERRADO**
 8. “G\&T-seq: Parallel sequencing of single-cell genomes and transcriptomes.” *Nat Methods.* 2015;12:519 -522 - **ERRADO**
 
-Desafiando Chat-GPT
---------------------
+Dialogando com Chat-GPT
+------------------------
+
+Como o Chat-GPT foi mais preciso, apesar de ter confundido o pesquisador, continuamos perguntando, ou seja, dialogando. **Mas, como?** Além de um aplicativo de LLM ser semântico, numa dada sessão ele guarda a memória das pesquisas e respostas anteriores, permitindo o diálogo.
+
+.. tip::
+   Em uma sessão aberta com um aplicativo de LLM, podemos dialogar com a máquina. Este é o **desafio de Touring**.
+
+
 
 Query: Are there references about Gaucher Disease and Single-Cell experiments? Yes or No?
 
@@ -177,15 +188,24 @@ Query: well done Chat-GPT, fantastic.
 
 Resposta: Thank you! I'm really glad that helped — Gaucher disease and single-cell research is a fascinating intersection, and it's great to see you're digging into it deeply. If you need help interpreting the data from those studies or want to design a related experiment, just let me know!
 
+
+Confirmando a referência
+-----------------------------
+
 .. note::
    **Referência**
-   Boddupalli CSNair SBelinsky GGans JTeeple ENguyen THMehta SGuo LKramer MLRuan JWang HDavison MKumar DVidyadhara DJZhang BKlinger KMistry PK (2022) Neuroinflammation in neuronopathic Gaucher disease: Role of microglia and NK cells, biomarkers, and response to substrate reduction therapy eLife 11:e79830.
+   Boddupalli CS, Nair S, Belinsky G, Gans J, Teeple E, Nguyen TH, Mehta S, Guo L, Kramer ML, Ruan J, Wang H, Davison M, Kumar D, Vidyadhara DJ, Zhang B, Klinger K, Mistry PK. Neuroinflammation in neuronopathic Gaucher disease: Role of microglia and NK cells, biomarkers, and response to substrate reduction therapy. Elife. 2022 Aug 16;11:e79830. doi: 10.7554/eLife.79830. PMID: 35972072; PMCID: PMC9381039.
+
+\
+
+\
+
 
 Perguntando ao PubMed
 -------------------------
 
-#1: gaucher disease
-#2: sc-rna seq
+  * #1: gaucher disease
+  * #2: sc-rna seq
 
 Query: #1 AND #2
 
@@ -196,4 +216,16 @@ Resultado
 =========
 
 Nulo
+
+
+Melhorando o Query para PubMed
+--------------------------------
+
+  * #1: gaucher disease
+  * #3: sc-rna seq OR single-cell
+  * NOT flow cytomet*
+
+Query: #1 AND #3 NOT flow cytomet*
+
+Resposta: achou 8 artigos, mas há FP
 
