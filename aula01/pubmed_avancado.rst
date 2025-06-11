@@ -1,7 +1,7 @@
 Pesquisas avançadas
 +++++++++++++++++++++++++++++
 
-Vamos supor que quremos estudar **Hipertensão Arterial** em recém-nascidos, crianças e jovens. Não queremos adultos e idosos!
+Vamos supor que queremos estudar **Hipertensão Arterial** em recém-nascidos, crianças e jovens. Não queremos adultos e idosos!
 
 Há duas formas para pesquisar:
 
@@ -12,7 +12,7 @@ Há duas formas para pesquisar:
    2.  (arterial hypertension) NOT adult NOT elder
    3.  (arterial hypertension) AND (newborn OR children OR young ) NOT adult NOT elder
 
-A segunda forma, excluindo Adultos (adult) e Idosos (elder) é pior pois estes conceitos podem não ser encontrados no título e abstract, como veremos a seguir. Aqui apresentamos o **conector booleano NOT**: NOT adult = excluir **adult**. A terceira forma de se escrever a *query* exclui **adultos** e **idososos**. Mas, lembrem-se que sempre podemos encontrar artigos que estudam, p.ex., **Jovens**, **Adultos** e **Idosos** e estaremos excluindo estes artigos.
+A segunda forma, excluindo Adultos (adult) e Idosos (elder) é pior pois estes conceitos podem não ser encontrados no título e abstract, como veremos a seguir. Aqui apresentamos o **conector booleano NOT**: NOT adult = excluir **adult**. A terceira forma de se escrever a *query* exclui **adultos** e **idosos**. Mas, lembrem-se que sempre podemos encontrar artigos que estudam, p.ex., **Jovens**, **Adultos** e **Idosos** e estaremos excluindo estes artigos.
 
 Possivelmente a primeira forma é melhor, mas há erros que serão apontados neste exemplo, mais a adiante.
 
@@ -77,7 +77,7 @@ Para aceitar o termo desejado, neste caso, clique sobre "arterial hypertension",
 Advanced & History
 =====================
 
-Agora clique me <Advanced> e voltará ao formulário de **História** (*History and Search Details*). Verá que existe a pesquisa 1 ou #1.
+Agora clique em <Advanced> e voltará ao formulário de **História** (*History and Search Details*). Verá que existe a pesquisa 1 ou #1.
 
 
 .. image:: ../images/pubmed_arterial_hyp_advanced.png
@@ -109,7 +109,7 @@ Como já explicamos anteriormente, o retorno de uma pesquisa pode trazer referê
 
 \
 
-De forma siplificada, um artigo cientifico é divido em título, autores, abstract, palavras-chaves (*keyowords*), texto, referências e material suplementar. Quando se pesquisa **All Fieldes**, todos estes campos são pesqisados. Logo, p.ex., um artigo de Saúde Pública pode ter como referência um estudo clínico de **Hipertensão Arterial**, e não queremos um Artigo de Saúde Pública. Logo, **All Fields** trará vários falsos positivos consigo, pois permite pesquisar em referências.
+De forma siplificada, um artigo cientifico é divido em título, autores, abstract, palavras-chaves (*keyowords*), texto, referências e material suplementar. Quando se pesquisa **All Fieldes**, todos estes campos são pesqisados. Logo, p.ex., um artigo de Saúde Pública pode ter como referência um estudo clínico de **Hipertensão Arterial**, e não queremos um Artigo de Saúde Pública. Logo, **All Fields** trará vários falsos positivos (FP) consigo, pois permite pesquisar em referências.
 
 
 Melhorando a pesquisa
@@ -130,7 +130,7 @@ Adicionando a chave **Title/Abastract**.
 Impressionante resultado
 =========================
 
-Após clicar em <Search> voltamos para tela inicial e de 653 mil resultados com **All Fields** chegamos a aproximadamente 48 mil resultados com **Title/Abstract**! 
+Após clicar em <Search> voltamos para tela inicial e de 653 mil resultados com **All Fields** chegamos a aproximadamente 48 mil resultados com o filtro **Title/Abstract**! 
 
 
 .. image:: ../images/pubmed_arterial_hyp_advanced_title_abst_result.png
