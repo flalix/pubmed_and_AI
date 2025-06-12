@@ -103,26 +103,26 @@ Pouca evidência
 Embora a "tempestade de citocinas" — também conhecida como tempestade de citocinas — esteja associada a casos graves de COVID-19, especialmente com níveis elevados de IL-6, ela não é considerada a causa fundamental das mortes. A COVID-19 é uma doença complexa, com múltiplos mecanismos patológicos, incluindo trombose, lesão endotelial, disfunção imunológica e falência multiorgânica. A tempestade de citocinas contribui significativamente para a gravidade, mas isolá-la como causa primária das mortes carece de evidência conclusiva e ignora a multifatorialidade do desfecho fatal.
 
 
-Desafios:
+Desacordo
+------------
 
 .. warning::
    Chat-gpt não está de acordo com Gemma!
 
 
+Desafios
+------------
+
 .. note::
-   1. Será quem uma indagação estruturada em linguagem natural em Português gera os mesmos resultados que em Inglês?
+   1. Será que uma indagação estruturada em linguagem natural em Português gera os mesmos resultados que em Inglês?
    2. Compare os resultados engre o Gemma e o Chat-GPT
    3. Faça uma pergunta sua.
-   4. Escolha outra ferramenta e faça perguntas: use o Perplexity e o Claude (Antropic).
+   4. Escolha outra ferramenta e faça perguntas: use o Perplexity (https://www.perplexity.ai/)
    5. Como você verificaria se uma dada resposta está correta?
 
 .. tip::
    **Pergunta em Inglês**
    Answer in the first line Yes, Possible, Low evidence or No, and explain: is the cytokine storm a fundamental cause of COVID-19 deaths? Context: COVID-19 was a pandemic that began in late 2019 and affected the entire planet, killing more than 6 million people. The cytokine storm is the massive release of inflammatory interleukins, mainly IL6, in severe cases of COVID-19.
 
-
-Perplexity: https://www.perplexity.ai/
-
-Antropic (Claude): https://chat.chatbotapp.ai/?model=4o-mini
 
 

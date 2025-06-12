@@ -43,10 +43,10 @@ Okay, focusing on references specifically relevant to Gaucher Disease *and* sing
 
 These papers directly apply single-cell technologies to study Gaucher Disease pathology, cellular heterogeneity, or treatment effects.
 
-1.  **Schrimpf, C., et al. (2020). Single-cell transcriptomics reveals cellular heterogeneity and inflammatory signatures in Gaucher disease. *Blood*, *136*(18), 1988 -2001.** (PMID: 32724649) - *Key paper*. This study used scRNA-seq to characterize the immune cell landscape in Gaucher disease patients, identifying altered inflammatory signatures and cellular proportions.  A foundational study in the field.
-2.  **Lalazar, S., et al. (2021). Single-cell RNA sequencing reveals altered macrophage phenotypes in Gaucher disease. *Journal of Inherited Metabolic Disease*, *44*(6), 1141 -1153.** (PMID: 34386814) - Focuses specifically on macrophage phenotypes in Gaucher disease using scRNA-seq, revealing dysregulation in these key cells.
-3.  **Gomes, A. S., et al. (2023). Single-cell transcriptomic analysis of Gaucher disease fibroblasts reveals impaired autophagy and lysosomal function. *Orphanet Journal of Rare Diseases*, *18*(1), 128.** (PMID: 37038719) - Examines the impact of Gaucher disease on fibroblasts at the single-cell level, highlighting defects in autophagy and lysosomal pathways.
-4.  **van der Voort, R., et al. (2023). Single-cell RNA sequencing reveals distinct immune cell populations and activation states in Gaucher disease. *Molecular Genetics and Metabolism Reports*, *33*, 100819.** (PMID: 37089999) - Further exploration of immune cell alterations in Gaucher disease using scRNA-seq.
+1. **Schrimpf, C., et al. (2020). Single-cell transcriptomics reveals cellular heterogeneity and inflammatory signatures in Gaucher disease. *Blood*, *136*(18), 1988 -2001.** (PMID: 32724649) - *Key paper*. This study used scRNA-seq to characterize the immune cell landscape in Gaucher disease patients, identifying altered inflammatory signatures and cellular proportions.  A foundational study in the field.
+2. **Lalazar, S., et al. (2021). Single-cell RNA sequencing reveals altered macrophage phenotypes in Gaucher disease. *Journal of Inherited Metabolic Disease*, *44*(6), 1141 -1153.** (PMID: 34386814) - Focuses specifically on macrophage phenotypes in Gaucher disease using scRNA-seq, revealing dysregulation in these key cells.
+3. **Gomes, A. S., et al. (2023). Single-cell transcriptomic analysis of Gaucher disease fibroblasts reveals impaired autophagy and lysosomal function. *Orphanet Journal of Rare Diseases*, *18*(1), 128.** (PMID: 37038719) - Examines the impact of Gaucher disease on fibroblasts at the single-cell level, highlighting defects in autophagy and lysosomal pathways.
+4. **van der Voort, R., et al. (2023). Single-cell RNA sequencing reveals distinct immune cell populations and activation states in Gaucher disease. *Molecular Genetics and Metabolism Reports*, *33*, 100819.** (PMID: 37089999) - Further exploration of immune cell alterations in Gaucher disease using scRNA-seq.
 5. **Bennaceur-Glaude, M., et al. (2024). Single-cell transcriptomics reveals a dysregulated immune landscape in Gaucher disease patients with splenectomy. *Scientific Reports*, *14*(1), 6883.** (PMID: 38447446) - Investigates the impact of splenectomy on the immune cell composition in Gaucher disease patients using scRNA-seq.
 
 .... <more>...
@@ -54,10 +54,10 @@ These papers directly apply single-cell technologies to study Gaucher Disease pa
 Análise da Respota do Gemma
 ---------------------------------
 
-1.  Single-cell transcriptomics reveals cellular heterogeneity and inflammatory signatures in Gaucher disease. *Blood*, *136*(18), 1988 -2001. (PMID: 32724649) - **ERRADO**
-2.  Single-cell RNA sequencing reveals altered macrophage phenotypes in Gaucher disease (PMID: 34386814) - **ERRADO**
-3.  Single-cell transcriptomic analysis of Gaucher disease fibroblasts reveals impaired autophagy and lysosomal function. PMID: 37038719 - **ERRADO**
-4.  Single-cell RNA sequencing reveals distinct immune cell populations and activation states in Gaucher disease. PMID: 37089999 **ERRADO**
+1. Single-cell transcriptomics reveals cellular heterogeneity and inflammatory signatures in Gaucher disease. *Blood*, *136*(18), 1988 -2001. (PMID: 32724649) - **ERRADO**
+2. Single-cell RNA sequencing reveals altered macrophage phenotypes in Gaucher disease (PMID: 34386814) - **ERRADO**
+3. Single-cell transcriptomic analysis of Gaucher disease fibroblasts reveals impaired autophagy and lysosomal function. PMID: 37038719 - **ERRADO**
+4. Single-cell RNA sequencing reveals distinct immune cell populations and activation states in Gaucher disease. PMID: 37089999 **ERRADO**
 5. Single-cell transcriptomics reveals a dysregulated immune landscape in Gaucher disease patients with splenectomy. PMID: 38447446 - **ERRADO**
 
 
