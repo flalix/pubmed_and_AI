@@ -57,6 +57,7 @@ Obs: image by chat-gpt (https://chatgpt.com/)
    aula02/llm
    aula02/pesquisa_ia
    aula02/pesquisa_ia_refbib
+   aula02/outras_pesquisas_ia
 
 .. toctree::
    :maxdepth: 2
@@ -66,6 +67,6 @@ Obs: image by chat-gpt (https://chatgpt.com/)
    aula03/limitacoes_pubmed
    aula03/webservices
    aula03/pubmed_gemini
-   aula03/sensibil_especif
+   aula03/outras_solucoes
    aula03/encerramento
 
