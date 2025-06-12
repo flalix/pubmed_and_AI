@@ -57,7 +57,7 @@ Exemplo <texto>: Rheumatoid arthritis (RA) is described as a chronic, systemic i
    Há diversos outros tradutores, como: https://translate.google.com/ 
 
 .. warning::
-   Há suporte para a lingua inglesa Grammarly (pago): https://app.grammarly.com/
+   Há suporte para a língua inglesa Grammarly (pago): https://app.grammarly.com/
 
 
 Correção gramatical
