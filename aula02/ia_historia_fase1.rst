@@ -52,13 +52,16 @@ Primeiro Neurônio
   :width: 30%
   :alt: Rosenblat
 
-Em 1957 na Universidade de Cornell, Frank Rosenblatt, monta o primeiro circuito elétrico que mimetizava o **Neurônio Artificial**, denominado Percepton. Daí para frente o planeta estava pronto para sair da *Era Industrial* e entrar na *Era da Informação*. Porém, a evolução dos computadores seriais foi incrivelmente bem sucedida e de forma exponencial, sendo que no início dos anos 80, devido a minituarização dos circuitos eletrônicos, surge a micro informática e os computadores pessoais. Já a teoria e desenvolvimento do circuitos neurais artificiais passou pela grande crise denominada o **Inverno da IA** (de ~1970-1990).
+Em 1957 na Universidade de Cornell, Frank Rosenblatt, monta o primeiro circuito elétrico que mimetizava o **Neurônio Artificial**, denominado Percepton. Daí para frente o planeta estava pronto para sair da *Era Industrial* e entrar na *Era da Informação*. Porém, a evolução dos computadores com CPUs seriais foi incrivelmente bem sucedida e de forma exponencial, sendo que no início dos anos 80, devido a minituarização dos circuitos eletrônicos, surge a micro informática e os computadores pessoais. Já a teoria e desenvolvimento do circuitos neurais artificiais passou pela grande crise denominada o **Inverno da IA** (de ~1970-1990).
 
-referência: 
 
-https://iatracker.com.br/glossario/o-que-e-xor-problem/
+| CPU - central processor unit
+| GPU - graphics processor unit
 
-https://en.wikipedia.org/wiki/AI_winter. 
+
+| referência:
+| https://iatracker.com.br/glossario/o-que-e-xor-problem/
+| https://en.wikipedia.org/wiki/AI_winter. 
 
 
 Linha do Tempo
@@ -79,7 +82,7 @@ ref: Bellini V, Cascella M, Cutugno F, Russo M, Lanza R, Compagnone C, Bignami E
 ANN profunda: *Deep Learning*
 ------------------------------
 
-Do ínicio da década de 1990 até 2012 surge a primeira *era tecnológica* da IA, conhecida como Deep-Learning (DL). DL é o encadeamento de neurônios em várias camadas. Ou seja, à esquerda há a **entrada** ou *input*, à direita há a **saída** ou *output* e no meio as camadas de *neurônios escondidas* denominadas *hidden layers*. 
+Do ínicio da década de 1990 até 2012 surge a primeira *era tecnológica* da IA, conhecida como Deep Learning (DL). DL é o encadeamento de neurônios em várias camadas. Ou seja, à esquerda há a **entrada** ou *input*, à direita há a **saída** ou *output* e no meio as camadas de *neurônios escondidas* denominadas *hidden layers*. 
 
 
 Um esquema de ANN,
@@ -96,7 +99,11 @@ Treinando uma rede neural
 -----------------------------
 
 
-A **grande sacada** foi como *ajustar os pesos* de cada neurônio (valores sobre cada entrada do percepton + um offset) e ir modificando os mesmos de forma que o *output* fosse igual ou próximo a uma **saída** conhecida. Portanto, na etapa de treinameto de uma ANN, neurônios importantes vão ligando com saída se aproximando do sinal 1, e neurônios menos importantes ficam no intervalo de sinais de saída entre 0.1 e 0.9 e aqueles que não colaboram com o resultado final são desligados. A técnica é levar os valores de entrada para cada uma das camadas (*hidden layers*), passando por cada neurônio e calculando a função neural φ, num algoritmo denominado "feedforward". Os neurônio **finais de saída** (*output*) preditos, são comparados com uma **saída conhecida** (p.ex.: entrada 1, 3, 5 -> Saída: Paciente São, entradas 2, 4, 6 --> Saída: Paciente Doente). O erro é mensurado por uma função denominada **Custo**. O erro é propagado de volta (*backpropagation*), até a que a função de custo atinja um mínimo. Neste momento a rede estará treinada e pronta para se analisar se funciona com novos dados (dados de teste). O que se armazena, ao final, é a topologia da rede e os pesos encontrados que minimizaram a função custo de acordo com o treinamento da rede.
+A **grande sacada** foi como *ajustar os pesos* de cada neurônio (valores sobre cada entrada do percepton + um offset) e ir modificando os mesmos de forma que o *output* fosse igual ou próximo a uma **saída** conhecida. Portanto, na etapa de treinameto de uma ANN, neurônios importantes vão ligando com saída se aproximando do sinal 1, e neurônios menos importantes ficam no intervalo de sinais de saída entre 0.1 e 0.9 e aqueles que não colaboram com o resultado final são desligados. A técnica é levar os valores de entrada para cada uma das camadas (*hidden layers*), passando por cada neurônio e calculando a função de ativação φ, num algoritmo denominado "feedforward" (calculando para frente). Os neurônio **finais de saída** (*output*) preditos, são comparados com uma **saída conhecida** (p.ex.: **entrada** = dados os pacientes 1, 3, 5 -> Saída: **dois estados**: paciente São, ou **entrada** = dados os pacientes 2, 4, 6 --> Saída: Paciente Doente). O erro é mensurado por uma função denominada **Custo**, ou seja, o erro é proporcional ao valor conhecido menos o valor calculado. O erro é propagado de volta (*backpropagation*), e este ciclo se repete até a que a função de custo atinja um mínimo. Neste momento a **rede estará treinada** e pronta para se analisar se tem boa acurácia com novos dados (dados de teste). Referente a uma rede treinada, o que se armazena, ao final, é a topologia da rede e os pesos encontrados que minimizaram a função custo de acordo com o treinamento da rede.
+
+.. tip::
+   Importante: para cada **problema** proposto temos que desenhar uma ou mais topologias e analisar qual a melhor. Para cada topologia temos que treinar a rede neural (ANN, ou MLP = *multi layer percepton*) e, com dados independentes, testar se a mesma funciona corretamente. Ou seja, se faz boas predições e tem boa acurácia.
+
 
 Caso a função da ANN seja o de um classificador então a rede se ajusta para acertar o *output* de classificação, como: a) doente ou são, b) rico, médio, pobre, c) 5 níveis de inflamação, etc. Já se a função da ANN é de calcular uma regressão, o *output* torna-se, p.ex., 50 valores discretos de uma função matemática num determinado domínio de valores. Como exemplo: a) ajustar a uma parábola, b) um segmento de curva qualquer, ou c) semi-círculo.
 

@@ -7,7 +7,7 @@ Principais aplicativos:
   * Google AI: https://aistudio.google.com/
   * Chat-GPT: https://chatgpt.com/
   * Perplexity: https://www.perplexity.ai/
-  * Ainda há LLama (Meta), Claude (AWS)
+  * Ainda há LLama (Meta), Claude (AWS), entre outras iniciativas abertas ou pagas.
 
 Perguntas & Respostas
 -----------------------
@@ -28,7 +28,7 @@ Resumos
 Context
 ===========
 
-Ao escrevermos um texto este pode se referir a tópicos diferentes no conhecimento humano, logo após o texto deve-se acrescertar **"Contexto:" mais o texto do contexto**.
+Ao escrevermos um texto, este pode se referir a tópicos diferentes no conhecimento humano, logo após o texto deve-se acrescertar **"Contexto:" mais o texto do contexto**.
 
 P.ex.: Resumir o contrato e apresentar seus principais tópicos: <contrato>. Contexto: este é um contrato de compra e venda de um apartamento no Brasil".
 
