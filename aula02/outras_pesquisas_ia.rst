@@ -22,7 +22,15 @@ Resumos
 
   * Get PMID 37567824 in PubMed and Summarize the abstract.
   * Summarize this text: <text>
+  * Summarize this text: <text> + "Context: xxxxx"
   * Faça um resumo da história "Branca de Neve e os sete anões"
+
+Context
+===========
+
+Ao escrevermos um texto este pode se referir a tópicos diferentes no conhecimento humano, logo após o texto deve-se acrescertar **"Contexto:" mais o texto do contexto**.
+
+P.ex.: Resumir o contrato e apresentar seus principais tópicos: <contrato>. Contexto: este é um contrato de compra e venda de um apartamento no Brasil".
 
 
 Tradução
@@ -73,8 +81,8 @@ Gráficos & Cálculos
   * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres.
   * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres usando Seaborn.
   * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres usando Plotly.
-    * Pode mostrar o gráfico?
-    * Pode mostrar o código em Python?
+   * Pode mostrar o gráfico?
+   * Pode mostrar o código em Python?
   * Você pode `subir` (*upload*) tabelas em Excel ou CSV/TSV e pedir para o aplicativo analisar
 
 
@@ -84,27 +92,30 @@ Código gerado
 
   * Código gerado em Seaborn (Python) por Chat-GPT (Junho 2025)
 
-import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
+| import seaborn as sns
+| import matplotlib.pyplot as plt
+| import pandas as pd
 
-# Dados do PIB em trilhões (ricas) e bilhões (pobres convertidos para trilhões)
-data = {'País': ['EUA', 'China', 'Alemanha', 'Japão', 'Índia','Reino Unido', 'França', 'Itália', 'Brasil', 'Canadá',  'São Tomé e Príncipe', 'Comoros', 'Eritreia', 'Lesoto', 'Gâmbia',  'Cabo Verde', 'R. Centro-Africana', 'Burundi', 'Djibouti', 'Libéria'], 'PIB (trilhões US$)': [27.361, 17.795, 4.456, 4.213, 3.550, 3.340, 3.031, 2.255, 2.174, 2.140, 0.00081, 0.00145, 0.00225, 0.00230, 0.00269, 0.00276, 0.00282, 0.00429, 0.00433, 0.00476], 'Grupo': ['Ricos'] * 10 + ['Pobres'] * 10
-}
+| # Dados do PIB em trilhões (ricas) e bilhões (pobres convertidos para trilhões)
+
+| data = {'País': ['EUA', 'China', 'Alemanha', 'Japão', 'Índia','Reino Unido', 'França', 'Itália', 'Brasil', 'Canadá',  'São Tomé e Príncipe', 'Comoros', 'Eritreia', 'Lesoto', 'Gâmbia',  'Cabo Verde', 'R. Centro-Africana', 'Burundi', 'Djibouti', 'Libéria'], 
+|           'PIB (trilhões US$)': [27.361, 17.795, 4.456, 4.213, 3.550, 3.340, 3.031, 2.255, 2.174, 2.140, 0.00081, 0.00145, 0.00225, 0.00230, 0.00269, 0.00276, 0.00282, 0.00429, 0.00433, 0.00476], 
+|           'Grupo': ['Ricos'] * 10 + ['Pobres'] * 10
+| }
 
 df = pd.DataFrame(data)
 
 # Ordenar os países por PIB
 df_sorted = df.sort_values(by='PIB (trilhões US$)', ascending=False)
 
-# Plot com Seaborn
-plt.figure(figsize=(12, 8))
-sns.barplot(data=df_sorted, x='PIB (trilhões US$)', y='País', hue='Grupo', dodge=False, palette='Set2')
-plt.title('PIB das 10 Nações Mais Ricas e 10 Mais Pobres (2023)', fontsize=14)
-plt.xlabel('PIB (trilhões de dólares americanos)')
-plt.ylabel('País')
-plt.legend(title='Grupo Econômico')
-plt.tight_layout()
-plt.grid(True, axis='x', linestyle='--', alpha=0.6)
-plt.show()
+| # Plot com Seaborn
+| plt.figure(figsize=(12, 8))
+| sns.barplot(data=df_sorted, x='PIB (trilhões US$)', y='País', hue='Grupo', dodge=False, palette='Set2')
+| plt.title('PIB das 10 Nações Mais Ricas e 10 Mais Pobres (2023)', fontsize=14)
+| plt.xlabel('PIB (trilhões de dólares americanos)')
+| plt.ylabel('País')
+| plt.legend(title='Grupo Econômico')
+| plt.tight_layout()
+| plt.grid(True, axis='x', linestyle='--', alpha=0.6)
+| plt.show()
 
