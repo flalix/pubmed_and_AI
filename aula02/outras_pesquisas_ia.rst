@@ -1,6 +1,8 @@
 Recursos de Aplicativos de IA
 +++++++++++++++++++++++++++++++
 
+Os aplicativos de IA em sites públicos (livres ou pagos) permitem que usuários façam várias operações distintas, após se logarem no mesmo *site*.
+
 
 Principais aplicativos:
 
@@ -12,6 +14,9 @@ Principais aplicativos:
 Perguntas & Respostas
 -----------------------
 
+O usuário pode fazer perguntas e continuar questionando (dialogando). A cada resposta há o ícone de cópia (só texto ou texto marcardo (*markdown*)) que copia o conteúdo da resposta para a memória, e pode-se, p.ex., colá-la num editor de texto.
+
+
   * O que é uma mitocôndria?
   * Onde fica a Guatemala?
   * Qual a forma de governo dos países baixos na Europa?
@@ -19,6 +24,9 @@ Perguntas & Respostas
 
 Resumos
 ---------
+
+Um LLM tem capacidade fazer resumos, pois é uma máquina semântica e generativa (capacidade de criar). Logo, pode-se pedir para o aplicativor Resumir (Sumarizar ou *Summarize*) um texto. Sempre que possível acrescente um contexto. No primeiro exemplo pedimos para o aplicativo de LLM "ir na PubMed" e com dado ID, obter o abstract e resumi-lo. Sim, ele consegue fazer isto! É extraordinário.
+
 
   * Get PMID 37567824 in PubMed and Summarize the abstract.
   * Summarize this text: <text>
@@ -36,6 +44,8 @@ P.ex.: Resumir o contrato e apresentar seus principais tópicos: <contrato>. Con
 Tradução
 -----------
 
+Uma das primeiras funções na criação de um **Transformer** foi a tradução, uma vez que se pode, neste modelo neural, comparar duas frases de comprimentos diferentes. Como uma dada frase em Inglês pode ter comprimento diferente que em Francês, um RNN teria dificulades de comparar e gerar uma tradução. Já a LLM ao jogar frases de comprimento em espaços de **embeddings** distintos (Inglês x Francês), consegue fazer esta tarefa com acurácia.
+
   * Traduza do Inglês para o Português: <texto>
   * Traduza do Português para o Alemão: <texto>
   * Translate from English to Spanish: <texto>
@@ -52,13 +62,25 @@ Exemplo <texto>: Rheumatoid arthritis (RA) is described as a chronic, systemic i
 Correção gramatical
 ---------------------
 
+No caso de correção gramatical, p.ex. no Inglês Britânico, dado um texto, o LLM gera os embeddings preditivos e compara com o que foi escrito no texto. Se uma dada palavra não estiver correta ou este verificar a falta de uma vírgula, apresenta o resultado como uma possível correção.
+
   * Please review and fix this text in British English: <text>
 
 <text>: A mitochondrion (pl. mitochondria) is an organele found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a doble membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as an source of chemical energy.
 
+.. note::
+   Nós humanos pedimos **por favor** (*please*), mas isto é desnessário ao se fazer uma pergunta a um LLM.
+
+.. warning::
+   Porém, as empresas (e soluções) estão aprendendo muito com nossas indagações (*queries*). Logo, sempre que possível, o usuário educadamente deve reportar um **Errro** ou **Acerto**. Como, "*I think I disagree with your answer, because ...*"" ou "*Well done, Chat-GPT, great answer*". Com estes *feedbacks* as empressas aprimoram suas máquinas de LMM.
+
+
 
 Multi-modal
 -------------
+
+Algumas soluções de LLM tem a capacidade de gerar imagens, sons e até filmes.
+
 
   * Desenhe um coelhinho sambando na praia de Ipanema
 
@@ -77,6 +99,9 @@ Perplexity:
 Gráficos & Cálculos
 ---------------------
 
+Alguns LLMs tem a capacidade de fazer cálculos, gerar gráficos e até fazer análise matemáticas ou financeiras.
+
+
   * Faça uma tabela de número de cromossomos versus espécies e mostre as 10 primeiras espécies com maior número de cromossomos.
   * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres.
   * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres usando Seaborn.
@@ -89,6 +114,8 @@ Gráficos & Cálculos
 
 Código gerado
 -----------------
+
+Provavelmente todos LLMs têm a capacidade de gerar códigos em diferentes linguagens de programação com muita acurácia. Por exemplo, conseguem gerar códigos em C, Java, Java-Script, HTM-CSS, Python, R, Ruby, etc. Importante, se algum código estiver incorreto ou incompleto, continue dialogando e orientando a máquina, o resultdo, usualmente, é incrível.
 
   * Código gerado em Seaborn (Python) por Chat-GPT (Junho 2025)
 
