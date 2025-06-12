@@ -44,7 +44,8 @@ P.ex.: Resumir o contrato e apresentar seus principais tópicos: <contrato>. Con
 Tradução
 -----------
 
-Uma das primeiras funções na criação de um **Transformer** foi a tradução, uma vez que se pode, neste modelo neural, comparar duas frases de comprimentos diferentes. Como uma dada frase em Inglês pode ter comprimento diferente que em Francês, um RNN teria dificulades de comparar e gerar uma tradução. Já a LLM ao jogar frases de comprimento em espaços de **embeddings** distintos (Inglês x Francês), consegue fazer esta tarefa com acurácia.
+Uma das primeiras funções na criação de um **Transformer** foi a tradução, uma vez que se pode, neste modelo neural, comparar duas frases de comprimentos diferentes. Como uma dada frase em Inglês pode ter comprimento diferente que em Francês, uma RNN teria dificulades de comparar e gerar uma tradução. No entanto, pode-se treinar um LLM com frases de comprimentos diferentes. No caso de uma tradução, treinamos um LLM oferecendo uma frase em inglês e dizendo que esta é similar a outra frase em francês. Logo, o LLM treinado para tradução mapeia frases em inglês no espaço de embeddings em francês, e pode, com este treinamento, retornar a tradução.
+
 
   * Traduza do Inglês para o Português: <texto>
   * Traduza do Português para o Alemão: <texto>
