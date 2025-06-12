@@ -12,9 +12,7 @@ Aos erros para resultados positivos, denominamos de **Falsos Positivos**. Ou sej
 
 Aos erros para resultados negativos, denominamos de **Falsos Negativos**. Ou seja, negativos que não deveriam estar lá, não foram encontrados mas estão corretos, deveriam ser positivos.
 
-
 Logo, podemos desejar uma **matriz de confusão**.
-
 
 .. list-table:: 
    :widths: 25 25 25
@@ -31,12 +29,11 @@ Logo, podemos desejar uma **matriz de confusão**.
      - True Negative (TN)
 
 
+Exemplo fictício: vamos pesquisar o conceito "Hipertensão Arterial"  (*Arterial Hypertension*) na PubMed.
 
-Exemplo fictício: vamos pesquisar o conceito "Hipertensão Arterial"  (*Arterial Hypertension*) no PubMed.
+O *engine* encontrou 653308 artigos científicos! Mas, vamos supor que 300 estão errados, eram relativos à nefrologia ou câncer. E vamos supor que descobrimos que o *engine* não trouxe 103 artigos corretos. Logo, temos 300 FP e 103 FN.
 
-O *engine* encontrou 653308 artigos científicos! Mas, vamos supor que 300 estão errados, eram relativos à nefrologia ou câncer. E vamos supor que descobrimos que o *engine* não trouxe 103 artigos corretos. Logo, tempos 300 FP e 103 FN.
-
-Logo, a matriz de confusão ficará assim
+Portanto, a matriz de confusão ficará assim
 
 .. list-table:: 
    :widths: 15 15 15

@@ -37,7 +37,7 @@ E depois, fazemos uma pesquisa final concatenando os termos e usando conectores 
 
 \
 
-Repare como é mais fácil montar os ANDs e ORs. Jovens, Crianças e Neonatos ficam entre parêntesis e utilizam a cláusula OR para se UNIR todos eles. Já **hipertensão arterial** fica de fora, à esquerda, seguida do conector booleano **AND**, pois queremos pesquisar esta patologia neste grupo / faixa etária.
+Repare como é mais fácil montar os ANDs e ORs neste ambiente e sem todas as palavras. Jovens, Crianças e Neonatos ficam entre parêntesis e utilizam a cláusula OR para se UNIR todos eles ('#3 OR #4 OR #5'). Já **hipertensão arterial** fica de fora, à esquerda, seguida do conector booleano **AND** ('#2 AND'), pois queremos pesquisar esta patologia neste grupo / faixa etária.
 
 Então funcionou? Tudo Correto?
 
@@ -55,11 +55,11 @@ Vamos analisar os resultado,
 
 \
 
-Vemos que aparecem palavaras que não havíamos pesquisado como **childhood**, **neonate**, **infant**, e **adolescent**. Você verá que este problema não existe em pesquisas com IA, uma vez que semanticamente são palavras parecidas, ocupam o espaço de embedding similar (ver nas próximas sessões).
+Lendo os resultados, vemos que aparecem palavaras que não havíamos pesquisado como **childhood**, **neonate**, **infant**, e **adolescent**. Você verá que este problema não existe em pesquisas com IA, uma vez que a IA tem habilidades `semânticas` reconhecendo palavras `parecidas`, ouse seja, **tokens transformados em números** ou **embeddings**. Logo, palavras similares ou correlacionadas ocupam `espaços de embeddings` próximos, uma mesma região (ver mais adiante como funciona uma LLM).
 
-Logo, podemos melhorar nossa pesquisa adiconando estas palavras. E ao final teremos vários **OR**s encadeados.
+Portanto, podemos melhorar nossa pesquisa adiconando estas palavras novas, ou melhor, seus `radicais` (`stem-words`). E ao final teremos vários **OR** encadeados.
 
-Aqui trocamos **children** e **childhood** por **child*** (com um asterístico ao fim, um wildcard).
+Aqui trocamos **children** e **childhood** por **child*** (com um asterístico ao fim, um *wildcard*), onde **child** é um `radical` ou `stem-word`.
 
 
 .. tip::
@@ -90,7 +90,7 @@ Aqui trocamos **children** e **childhood** por **child*** (com um asterístico a
 Resultado final
 ================
 
-Passamos de 2911 artigos para 3909. Descobrimos, possivelmente, 998 FN!
+Passamos de 2911 artigos para 3909. Descobrimos possíveis 998 FN!
 
 \
 

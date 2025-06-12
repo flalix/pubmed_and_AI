@@ -76,7 +76,7 @@ Relações como as abaixo, usuais em ontologias, não são encontradas no MeSH:
   - reprime
   - etc.
 
-Ou seja, o MeSH foi criado para auxílio semântico ao vocabulário biomédico e apoio à PubMed para a recuperação de termos.
+Ou seja, o MeSH foi criado para auxílio semântico ao vocabulário biomédico e apoio à PubMed para a recuperação de textos.
 
 
 **Exercício**
@@ -84,12 +84,12 @@ Ou seja, o MeSH foi criado para auxílio semântico ao vocabulário biomédico e
   1. Procure por **Hypertension** no link: https://meshb.nlm.nih.gov/search
   2. Clique em MeSH Tree Sstructure
   3. Clique em "Essential Hypertension"
-  4. Clique em **RDF Unique Identifier**
-    * aqui vemos os seus qualificadores
-    * e termos relacionados
-    * além de outros itens
+  4. Clique em **RDF Unique Identifier** 
+    a. aqui vemos os seus qualificadores
+    b. e termos relacionados
+    c. além de outros itens
 
-
+  
 
 Veja link (inglês):
 
