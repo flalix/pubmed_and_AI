@@ -18,14 +18,14 @@ Dicas
 
 1. Utilizar o mínimo número de termos possíveis
 
-errado
-========
+Exeplo errado
+-----------------
 
 hipertension AND systemic AND cardio AND (CVA OR cerebrovascular accident) AND deaths
 
 
-motivo
-========
+Motivo
+------------
 
   a. muitos termos podem levar a muitos FN
   b. use radicais seguidos de asterístico: card*
@@ -37,23 +37,26 @@ motivo
 
 2. Nunca acredite que uma primeira pesquisa está pronta
 
-fato
-========
+Importante
+----------------
 
 as primeiras pesquisas nunca são boas
 
 
-como pesquisar
-==================
+Dicas de como pesquisar
+-------------------------
 
-  a. faça uma pesquisa (*query*)
-  b. analise as referências de retorno
-  c. anote novos conceitos e palavras sinônimas ou homológas
-  d. refaça a pesquisa
-  e. pesquise com IA: anote novos conceitos e palavras sinônimas ou homológas
-  f. refaça a pesquisa
-  g. estude a melhoria de cada resultados
-  h. estude se há FP: artigos trazidos errados (se sim, refaça a pesquisa usando cláusula NOT)
-  i. se você não é um especialista na área é praticamente impossível analisar FN
+
+  a. Construa uma pesquisa (*query*) na PubMed
+  b. Analise as referências de retorno
+  c. Anote novos conceitos e palavras sinônimas ou homológas
+  d. Refaça a pesquisa
+  e. Pesquise com IA: anote novos conceitos e palavras sinônimas ou homológas
+  f. Refaça a pesquisa: inclusa novos conceitos e sinônios usando **OR**
+  g. Estude a melhoria de cada passo / resultados
+  h. Estude se há FP: artigos trazidos errados (se sim, refaça a pesquisa usando cláusula NOT)
+  i. Se você não é um especialista na área é praticamente impossível analisar FN
+  j. Sempre que possível peça ajuda a pessoas mais experientes na área
+  k. Nunca ache que sua pesquisa terminou e está ótima: sempre há algo para melhorar
 
 
