@@ -68,8 +68,8 @@ Obs: image by chat-gpt (https://chatgpt.com/)
    :caption: PubMed x IA
 
    aula03/limitacoes_pubmed
-   aula03/webservices
    aula03/pubmed_gemini
+   aula03/webservices
    aula03/outras_solucoes
    aula03/encerramento
 
