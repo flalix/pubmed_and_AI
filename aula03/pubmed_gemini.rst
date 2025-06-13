@@ -16,7 +16,7 @@ Devido à uma necessidade técnica em estudos de Bioinformática e Biologia de S
 **Definição de curagem científica**: comprovação que um conceito a ser pesquisado já está descrito na literatura científica e comprovado por pesquisadores idôneos, tendo sido publicado em revista de bom impacto e com revisores aos pares.
 
 
-Para respondermos a esta pergunta desenvolvemos um estudo que levou certa de um ano para ser realizado. Recetemente submetemos à BMC Bioinformatics (ainda sem retorno) e publicamos no ArXiv, este último, uma plataforma aberta de publicação de artigos científicos sem revisão aos pares.
+Para respondermos a esta pergunta desenvolvemos um estudo que levou certa de um ano para ser realizado. Recentemente submetemos à BMC Bioinformatics (ainda sem retorno) e publicamos no ArXiv, este último, uma plataforma aberta de publicação de artigos científicos sem revisão aos pares.
 
 .. image:: ../images/paper_dpc.png
   :align: center
@@ -25,7 +25,7 @@ Para respondermos a esta pergunta desenvolvemos um estudo que levou certa de um 
 
 \
 
-A ideia era comprovar se técnicas de pesquisa em IA conseguiam superar pesquisas na PubMed e pesquisas realizadas por Pesquisadores Especializados e seus alunos (seres humanos). E a resposta foi `sim`. Mas como se consegue provar isto?
+A ideia era comprovar se técnicas de pesquisa utilizando IA conseguem superar pesquisas `automáticas` na PubMed e pesquisas realizadas por Pesquisadores Especializados e seus alunos (seres humanos) utilizando quaisquer fontes de dados sem a utilização de IA. E a resposta foi `sim`. Mas como se consegue provar isto?
 
   Resumidamente, através dos seguintes conceitos:
     1. Adquirindo centenas ou milhares de *queries-responses* para gerar uma estatística consistente.
@@ -34,7 +34,7 @@ A ideia era comprovar se técnicas de pesquisa em IA conseguiam superar pesquisa
     4. Comparar com as respostas das mesmas *queries* na PubMed e de Seres Humanos.
 
 
-Para se aquirir centenas ou milhares de *queries-responses* tivemos que utilizar de códigos computacionais escritos em Python e chamando o *web service* da Google. Ou seja, se você tem que fazer uma ou poucas pesquisas, você ou faz manualmente. Mas, se você tem que fazer milhares de pesquisas, manualmente é impossível!
+Para se aquirir centenas ou milhares de *queries-responses* tivemos que utilizar de códigos computacionais escritos em Python e chamando o *web service* da Google. Ou seja, se você tem que fazer uma ou poucas pesquisas, você pode fazer manualmente. Mas, se você tem que fazer milhares de pesquisas, manualmente é impossível!
 
 Como conseguir que a máquina de IA seja reprodutível e responda Sim ou Não? Isto já descrevemos anteriormente. Criamos e testamos a seguinte forma de arguir um LLM:
 
@@ -51,17 +51,22 @@ Pudemos comprovar, que 2 dos modelos (Gemini 1.5-flash e 1.5-pro) da Google IA s
 Comparação LLM, PubMed, Humanos
 ------------------------------------
 
-E como comparar as reposta da LLM com respostas da PubMed e de Seres Humanos?
+E como comparar as reposta da LLM com respostas `automáticas` da PubMed e de Seres Humanos?
 
-De forma simplificada, para cada pergunta realizada (fizemos centenas de perguntas diferentes para duas doenças humans), comparamos o `Sim` ou `Não` da LLM com `achou bibliografia` na PubMed e o `consenso` das resposta humanas.
+`automáticas` - utilizando o **Web Service** da PubMed, sem auxílio de seres humanos.
+
+
+De forma simplificada, para cada pergunta realizada (fizemos centenas de perguntas diferentes para duas doenças humanas), comparamos as resposta `Sim` ou `Não` da LLM com `achou bibliografia` na PubMed e o `consenso` das respostas humanas.
+
 
 Desafio
 ------------
 
 .. warning::
    1. Como traduzir **perguntas em linguagem natural** para *queries* em PubMed?
-   2. Uma pergunta científica única para uma LLM é suficiente?
-   3. O que significa `consenso` para pesquisadores humanos?
+   2. Dada uma única pergunta científica para uma LLM, um resultado único é suficiente?
+   3. Você consegue imaginar variações semânticas para a mesma pergunta?
+   4. O que significa `consenso` para pesquisadores humanos?
 
 
 As respostas a estas indagações serão discutidas durante a apresentação.
