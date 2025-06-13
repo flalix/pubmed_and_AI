@@ -93,9 +93,8 @@ Ou seja, o MeSH foi criado para auxílio semântico ao vocabulário biomédico e
 
 Veja link (inglês):
 
-https://medium.com/@jaywang.recsys/ontology-taxonomy-and-graph-standards-owl-rdf-rdfs-skos-052db21a6027
+| https://medium.com/@jaywang.recsys/ontology-taxonomy-and-graph-standards-owl-rdf-rdfs-skos-052db21a6027
+| https://geneontology.org/docs/ontology-relations/
 
-
-https://geneontology.org/docs/ontology-relations/
 
 
