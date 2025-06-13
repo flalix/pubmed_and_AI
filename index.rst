@@ -29,6 +29,9 @@ Obs: image by chat-gpt (https://chatgpt.com/)
   | Development and Innovation Center (CDI)
   | `Instituto Butantan <https://en.butantan.gov.br/>`_
 
+.. Note:: 
+   Código para acess Google Web Service em: https://github.com/flalix/google_webservice
+
 
 .. toctree::
    :maxdepth: 2
