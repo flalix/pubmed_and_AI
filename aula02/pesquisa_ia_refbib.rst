@@ -139,7 +139,7 @@ Dialogando com Chat-GPT
 Como o Chat-GPT foi mais preciso, apesar de ter confundido o pesquisador, continuamos perguntando, ou seja, dialogando. **Mas, como?** Além de um aplicativo de LLM ser semântico, numa dada sessão ele guarda a memória das pesquisas e respostas anteriores, permitindo o diálogo.
 
 .. tip::
-   Em uma sessão aberta com um aplicativo de LLM, podemos dialogar com a máquina. Este é o **desafio de Touring**.
+   Em uma sessão aberta com um aplicativo de LLM, podemos dialogar com a máquina. Dialogar com um máquina faz parte do **desafio de Touring**. Os algoritmos anteriores eram baseados em "if-then-else" e "switch-case", agora não há mais algortimos. Ou seja, a máquina vai achando soluções no hiper-espaço de embeddings e dialogando com o usuário, dentro de uma mesma sessão ou em uma sessão recuperada.
 
 
 
