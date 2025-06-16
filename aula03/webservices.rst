@@ -8,7 +8,7 @@ Ou seja, empresas, comércios, jornais, bases de dados, entre outros, podem cons
 
 
 .. Note::
-   **Web Service** é composto:
+   **Web Service** é composto de ...
 
    * Host: um servidor central que armazena o **Web Service** e disponiliza o serviço
    * Dicionário: um dicionário que apresenta a URL, e diversas formas fixas de se perguntar
@@ -26,7 +26,7 @@ Exemplo WS-Gemini
 Somente a título de curiosidade e para poucos, como um exemplo técnico, apresentamos um código de **Web Service** para fazer consultas a qualquer modelo de LLM da Google. O mesmo pode ser consultado para as outras plataformas como Chat-GPT, Perplexity, Claude, LLama, etc.
 
 .. Note::
-   Código para acess Google Web Service em: https://github.com/flalix/google_webservice
+   Código para *chamar* o Google IA Web Service em: https://github.com/flalix/google_webservice
 
 
 Como testar o WS-Gemini?

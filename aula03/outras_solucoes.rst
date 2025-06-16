@@ -1,5 +1,5 @@
-Outras soluções bibs
-+++++++++++++++++++++++
+Outras soluções bibliográficas
+++++++++++++++++++++++++++++++++
 
 NotebookLM da Google
 --------------------------
@@ -61,7 +61,7 @@ Barra lateral com várias opções e funções, incluso montar sua própria bibl
 
   * AI academic detector
   * Gerador de citações
-  * Auxílo à escrita de textos cietíficos
+  * Auxílio à escrita de textos científicos
 
 Para pesquisas mais profissionais tem custo, a partir de US$ 12 por mês (Junho de 2025).
 

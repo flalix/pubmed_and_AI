@@ -55,7 +55,20 @@ Isto está correto, mas
 .. note:: 
    Sim, precisamos de IA e IA é um caminho sem volta. Problemas éticos, educacionais e legais existem e sempre existirão. Estes têm que ser resolvidos com diálogo, leis e comprensão/novos comportamentos. Mas, será que o homem conseguirá *parar de matar* ou usuará as novas tecnologias para manter sua forma primitiva de comportamento?
 
+   Com relação à Pesquisa na PubMed, a IA se tornou uma excelente ferramentea de apoio à pesquisa científica. Porém, apesar de novos aplicativos com IAs treinadas para esta tarefa, a PubMed continua a ser essencial. Futuramente, quiçá, ou a própria PubMed criará um aplicativo onde poderemos formular uma *query* em linguagem natural, ou um dos novos aplicativos de mercado ou de uma universidade prevalecerá. Acompanhemos o futuro.
 
+
+
+São Paulo, 16 de julho de 2025.
+
+.. Note:: 
+  | PhD Flavio Lichtenstein  
+  | email: flavio.lichtenstein@butantan.gov.br  
+  | Bio and Immunoinformatics, Systems Biology, and Artificial Intelligence Laboratory (BISAI-Lab)  
+
+  | `Centre of Excellence in New Target Discovery (CENTD) <https://centd.butantan.gov.br/US/>`_
+  | Development and Innovation Center (CDI)
+  | `Instituto Butantan <https://en.butantan.gov.br/>`_
 
 
 
