@@ -53,7 +53,6 @@ Pode-se navegar entre as páginas e ao ao clicar num artigo, abre a página PubM
 .. image:: ../images/article_searched.png\
   :align: center
   :width: 90%
-  :height: 450
   :alt: PubMed and AI
 
 \
@@ -64,7 +63,6 @@ A página do artigo contém diversas informações
 .. image:: ../images/article_details.png\
   :align: center
   :width: 90%
-  :height: 450
   :alt: PubMed and AI
 
 \
