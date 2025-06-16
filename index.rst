@@ -21,16 +21,16 @@ Obs: image by chat-gpt (https://chatgpt.com/)
 
 
 .. Note:: 
-  | Bio and Immunoinformatics, Systems Biology, and Artificial Intelligence Laboratory (BISAI-Lab)  
   | PhD Flavio Lichtenstein  
   | email: flavio.lichtenstein@butantan.gov.br  
+  | Bio and Immunoinformatics, Systems Biology, and Artificial Intelligence Laboratory (BISAI-Lab)  
 
   | `Centre of Excellence in New Target Discovery (CENTD) <https://centd.butantan.gov.br/US/>`_
   | Development and Innovation Center (CDI)
   | `Instituto Butantan <https://en.butantan.gov.br/>`_
 
 .. Note:: 
-   Código para acess Google Web Service em: https://github.com/flalix/google_webservice
+   Código para *chamar* o Google IA Web Service em: https://github.com/flalix/google_webservice
 
 
 .. toctree::
