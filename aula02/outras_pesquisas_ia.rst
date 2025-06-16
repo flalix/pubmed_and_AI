@@ -14,7 +14,7 @@ Principais aplicativos:
 Perguntas & Respostas
 -----------------------
 
-O usuário pode fazer perguntas e continuar questionando (dialogando). A cada resposta há o ícone de cópia (só texto ou texto marcardo (*markdown*)) que copia o conteúdo da resposta para a memória, e pode-se, p.ex., colá-la num editor de texto.
+O usuário pode fazer perguntas e continuar questionando (dialogando). A cada resposta há o ícone de cópia (só texto ou texto marcado (*markdown*)) que copia o conteúdo da resposta para a memória, e pode-se, p.ex., colá-la num editor de texto.
 
 
   * O que é uma mitocôndria?
@@ -25,7 +25,7 @@ O usuário pode fazer perguntas e continuar questionando (dialogando). A cada re
 Resumos
 ---------
 
-Um LLM tem capacidade fazer resumos, pois é uma máquina semântica e generativa (capacidade de criar). Logo, pode-se pedir para o aplicativor Resumir (Sumarizar ou *Summarize*) um texto. Sempre que possível acrescente um contexto. No primeiro exemplo pedimos para o aplicativo de LLM "ir na PubMed" e com dado ID, obter o abstract e resumi-lo. Sim, ele consegue fazer isto! É extraordinário.
+Um LLM tem capacidade fazer resumos, pois é uma máquina semântica e generativa (capacidade de criar). Logo, pode-se pedir para o aplicativo Resumir (Sumarizar ou *Summarize*) um texto. Sempre que possível acrescente um contexto. No primeiro exemplo pedimos para o aplicativo de LLM "ir na PubMed" e com dado ID, obter o abstract e resumi-lo. Sim, ele consegue fazer isto! É extraordinário.
 
 
   * Get PMID 37567824 in PubMed and Summarize the abstract.
@@ -36,7 +36,7 @@ Um LLM tem capacidade fazer resumos, pois é uma máquina semântica e generativ
 Context
 ===========
 
-Ao escrevermos um texto, este pode se referir a tópicos diferentes no conhecimento humano, logo após o texto deve-se acrescertar **"Contexto:" mais o texto do contexto**.
+Ao escrevermos um texto, este pode se referir a tópicos diferentes no conhecimento humano, logo após o texto deve-se acrescentar **"Contexto:" mais o texto do contexto**.
 
 P.ex.: Resumir o contrato e apresentar seus principais tópicos: <contrato>. Contexto: este é um contrato de compra e venda de um apartamento no Brasil".
 
@@ -44,7 +44,7 @@ P.ex.: Resumir o contrato e apresentar seus principais tópicos: <contrato>. Con
 Tradução
 -----------
 
-Uma das primeiras funções na criação de um **Transformer** foi a tradução, uma vez que se pode, neste modelo neural, comparar duas frases de comprimentos diferentes. Como uma dada frase em Inglês pode ter comprimento diferente que em Francês, uma RNN teria dificulades de comparar e gerar uma tradução. No entanto, pode-se treinar um LLM com frases de comprimentos diferentes. No caso de uma tradução, treinamos um LLM oferecendo uma frase em inglês e dizendo que esta é similar a outra frase em francês. Logo, o LLM treinado para tradução mapeia frases em inglês no espaço de embeddings em francês, e pode, com este treinamento, retornar a tradução.
+Uma das primeiras funções na criação de um **Transformer** foi a tradução, uma vez que se pode, neste modelo neural, comparar duas frases de comprimentos diferentes. Como uma dada frase em Inglês pode ter comprimento diferente que em Francês, uma RNN teria dificuldades de comparar e gerar uma tradução. No entanto, pode-se treinar um LLM com frases de comprimentos diferentes. No caso de uma tradução, treinamos um LLM oferecendo uma frase em inglês e dizendo que esta é similar a outra frase em francês. Logo, o LLM treinado para tradução mapeia frases em inglês no espaço de embeddings em francês, e pode, com este treinamento, retornar a tradução.
 
 
   * Traduza do Inglês para o Português: <texto>
@@ -70,14 +70,14 @@ No caso de correção gramatical, p.ex. no Inglês Britânico, dado um texto, o 
 <text>: A mitochondrion (pl. mitochondria) is an organele found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a doble membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as an source of chemical energy.
 
 .. note::
-   Nós humanos pedimos **por favor** (*please*), mas isto é desnessário ao se fazer uma pergunta a um LLM.
+   Nós humanos pedimos **por favor** (*please*), mas isto é desnecessário ao se fazer uma pergunta a um LLM.
 
 .. warning::
    Porém, as empresas (e soluções) estão aprendendo muito com nossas indagações (*queries*). Logo, sempre que possível, o usuário educadamente deve reportar um **Errro** ou **Acerto**. Como, "*I think I disagree with your answer, because ...*"" ou "*Well done, Chat-GPT, great answer*". Com estes *feedbacks* as empressas aprimoram suas máquinas de LMM.
 
 
 
-Multi-modal
+Multimodal
 -------------
 
 Algumas soluções de LLM tem a capacidade de gerar imagens, sons e até filmes.
@@ -104,9 +104,9 @@ Alguns LLMs tem a capacidade de fazer cálculos, gerar gráficos e até fazer an
 
 
   * Faça uma tabela de número de cromossomos versus espécies e mostre as 10 primeiras espécies com maior número de cromossomos.
-  * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres.
-  * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres usando Seaborn.
-  * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais probres usando Plotly.
+  * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais pobres.
+  * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais pobres usando Seaborn.
+  * Faça um gráfico de barras com o PIB das 10 nações mais ricas do mundo seguido das 10 nações mais pobres usando Plotly.
    * Pode mostrar o gráfico?
    * Pode mostrar o código em Python?
   * Você pode `subir` (*upload*) tabelas em Excel ou CSV/TSV e pedir para o aplicativo analisar
@@ -116,7 +116,7 @@ Alguns LLMs tem a capacidade de fazer cálculos, gerar gráficos e até fazer an
 Código gerado
 -----------------
 
-Provavelmente todos LLMs têm a capacidade de gerar códigos em diferentes linguagens de programação com muita acurácia. Por exemplo, conseguem gerar códigos em C, Java, Java-Script, HTM-CSS, Python, R, Ruby, etc. Importante, se algum código estiver incorreto ou incompleto, continue dialogando e orientando a máquina, o resultdo, usualmente, é incrível.
+Provavelmente todos LLMs têm a capacidade de gerar códigos em diferentes linguagens de programação com muita acurácia. Por exemplo, conseguem gerar códigos em C, Java, Java-Script, HTM-CSS, Python, R, Ruby, etc. Importante, se algum código estiver incorreto ou incompleto, continue dialogando e orientando a máquina, o resultado, usualmente, é incrível.
 
   * Código gerado em Seaborn (Python) por Chat-GPT (Junho 2025)
 

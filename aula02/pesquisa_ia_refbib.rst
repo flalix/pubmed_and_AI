@@ -1,14 +1,14 @@
 Pesquisar referências em IA
 +++++++++++++++++++++++++++++
 
-Vamos fazer um deseafio, ou seja, uma pergunta **muito difícil** à máquina de IA da Google (Gemma) e ao Chat-GPT. 
+Vamos fazer um desafio, ou seja, uma pergunta **muito difícil** à máquina de IA da Google (Gemma) e ao Chat-GPT. 
 
 Meta: trazer referências bibliográficas da "Doença de Gaucher" e "Experimentos de Single-Cell"
 
 Neste momento, **desconhecemos se há experimentos de Single-Cell para Gaucher**, e vamos desafiar a máquina de IA Google e Chat-GPT.
 
 .. warning::
-   Resultado: dialogando com Chat-gpt, este foi capaz de achar uma referência! Fantástico.
+   Resultado: dialogando com Chat-GPT, este foi capaz de achar uma referência! Fantástico.
 
 .. note::
    Refinando a pesquisa no PubMed achamos 8 artigos, mas há vários FP!
@@ -51,7 +51,7 @@ These papers directly apply single-cell technologies to study Gaucher Disease pa
 
 .... <more>...
 
-Análise da Respota do Gemma
+Análise da Resposta do Gemma
 ---------------------------------
 
 1. Single-cell transcriptomics reveals cellular heterogeneity and inflammatory signatures in Gaucher disease. *Blood*, *136*(18), 1988 -2001. (PMID: 32724649) - **ERRADO**
@@ -122,7 +122,7 @@ Key papers and guidelines for droplet-based and multi-omics scRNA-seq methods:
 Análise da Resposta do Chat-GPT
 ---------------------------------
 
-**ERRADO** trouxe respostas de sc-RNA-Seq mas não de Gaucher (isto está correto!), mas confunde o pesquisador.
+**ERRADO**: trouxe respostas de sc-RNA-Seq mas não de Gaucher confundindo o pesquisador.
 
 1. “Massively parallel digital transcriptional profiling of single cells.” *Nat Commun.* 2017;8:14049 - **ERRADO**
 2. “Simultaneous epitope and transcriptome measurement in single cells.” *Nat Methods.* 2017;14:865 -868 - **ERRADO**
@@ -139,7 +139,7 @@ Dialogando com Chat-GPT
 Como o Chat-GPT foi mais preciso, apesar de ter confundido o pesquisador, continuamos perguntando, ou seja, dialogando. **Mas, como?** Além de um aplicativo de LLM ser semântico, numa dada sessão ele guarda a memória das pesquisas e respostas anteriores, permitindo o diálogo.
 
 .. tip::
-   Em uma sessão aberta com um aplicativo de LLM, podemos dialogar com a máquina. Dialogar com um máquina faz parte do **desafio de Touring**. Os algoritmos anteriores eram baseados em "if-then-else" e "switch-case", agora não há mais algortimos. Ou seja, a máquina vai achando soluções no hiper-espaço de embeddings e dialogando com o usuário, dentro de uma mesma sessão ou em uma sessão recuperada.
+   Em uma sessão aberta com um aplicativo de LLM, podemos dialogar com a máquina. Dialogar com um máquina faz parte do **desafio de Touring**. Os algoritmos anteriores eram baseados em "if-then-else" e "switch-case", agora não há mais algoritmos. Ou seja, a máquina vai achando soluções no hiperespaço de embeddings e dialogando com o usuário, dentro de uma mesma sessão ou em uma sessão recuperada.
 
 
 

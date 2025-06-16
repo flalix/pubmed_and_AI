@@ -4,7 +4,7 @@ Pesquisando com IA
 Como perguntar?
 -----------------
 
-Inicialmente fizemos as seguintes parguntas de como indagar um LLM:
+Inicialmente fizemos as seguintes perguntas de como indagar um LLM:
 
   * Como consultar um LLM em linguagem natural e obter respostas reproduzíveis sem alucinações? 
   * Como obter uma resposta positiva ou negativa para inferir se um conceito existe na literatura biomédica ou não?
@@ -46,7 +46,7 @@ Dependendo do LLM selecionado, a resposta retornará apenas **Yes** ou **No**; o
 
 “Answer in the first line Yes, Possible, Low evidence, or No, and explain: Is <concept> related to <disease>?”
 
-Por fim, é necessário adicionar **contextos** à consulta para ajudar o LLM a se concentrar e melhorar a reprodutibilidade. Os **contextos** direcionam a máquina para um subespaço definido dentro do hiper-espaço de embeddings. Portanto, o formato final proposto é:
+Por fim, é necessário adicionar **contextos** à consulta para ajudar o LLM a se concentrar e melhorar a reprodutibilidade. Os **contextos** direcionam a máquina para um subespaço definido dentro do hiperespaço de embeddings. Portanto, o formato final proposto é:
 
 
 “Answer in the first line Yes, Possible, Low evidence, or No, and explain: Is <concept> related to <disease>? Context: <disease_context> + <concept_concept>.”
@@ -100,14 +100,14 @@ Resposta
 =========
 
 Pouca evidência
-Embora a "tempestade de citocinas" — também conhecida como tempestade de citocinas — esteja associada a casos graves de COVID-19, especialmente com níveis elevados de IL-6, ela não é considerada a causa fundamental das mortes. A COVID-19 é uma doença complexa, com múltiplos mecanismos patológicos, incluindo trombose, lesão endotelial, disfunção imunológica e falência multiorgânica. A tempestade de citocinas contribui significativamente para a gravidade, mas isolá-la como causa primária das mortes carece de evidência conclusiva e ignora a multifatorialidade do desfecho fatal.
+Embora a "tempestade de citocinas" — também conhecida como tempestade de citocinas — esteja associada a casos graves de COVID-19, especialmente com níveis elevados de IL-6, ela não é considerada a causa fundamental das mortes. A COVID-19 é uma doença complexa, com múltiplos mecanismos patológicos, incluindo trombose, lesão endotelial, disfunção imunológica e falência multiórgãos. A tempestade de citocinas contribui significativamente para a gravidade, mas isolá-la como causa primária das mortes carece de evidência conclusiva e ignora a multifatorialidade do desfecho fatal.
 
 
 Desacordo
 ------------
 
 .. warning::
-   Chat-gpt não está de acordo com Gemma!
+   Chat-GPT não está de acordo com Gemma!
 
 
 Desafios
@@ -115,7 +115,7 @@ Desafios
 
 .. note::
    1. Será que uma indagação estruturada em linguagem natural em Português gera os mesmos resultados que em Inglês?
-   2. Compare os resultados engre o Gemma e o Chat-GPT
+   2. Compare os resultados entre o Gemma e o Chat-GPT
    3. Faça uma pergunta sua.
    4. Escolha outra ferramenta e faça perguntas: use o Perplexity (https://www.perplexity.ai/)
    5. Como você verificaria se uma dada resposta está correta?

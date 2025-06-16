@@ -4,7 +4,7 @@ História: até 2016
 Introdução
 ------------
 
-É muito difícil e complexo explicar o que é Intelgiência Artiticial (IA) nos dias atuais (2025). Mas, vamos tentar explicar relatando a história, exemplos e utilizando algumas metáforas. Uma das dificuldades se deve por ser necessário um bom conhecimento de matemática e aprendizado de máquina (*Machine Learning* or **ML**). Portanto, mostraremos como utilizar a IA focando em recuperação de informações científicas, em especial biomédicas, e comparando com a recuperação de referências oferecida pela PubMed.
+É muito difícil e complexo explicar o que é Inteligência Artificial (IA) nos dias atuais (2025). Mas, vamos tentar explicar relatando a história, exemplos e utilizando algumas metáforas. Uma das dificuldades se deve por ser necessário um bom conhecimento de matemática e aprendizado de máquina (*Machine Learning* or **ML**). Portanto, mostraremos como utilizar a IA focando em recuperação de informações científicas, em especial biomédicas, e comparando com a recuperação de referências oferecida pela PubMed.
 
 
 Modelos iniciais
@@ -42,7 +42,7 @@ O modelo de McCulloch e Pitts mimetiza um neurônio de Cajal, tendo várias entr
 
 ref: https://en.wikipedia.org/wiki/Artificial_neuron
 
-A seguir em 1949, Touring, precocemente imaginou que a máquina, ainda que primitiva, poderia ser *inteligente*. E propôs o **Teste de Touring** (ver https://en.wikipedia.org/wiki/Turing_test). Feliz ou infelizmente, John McCarthy cunhou o termo **Inteligência Artificial**, mas o correto é a denominação **Aprendizado de Máquina** (*Machine Learning* ou **ML**).
+A seguir em 1949, Turing, precocemente imaginou que a máquina, ainda que primitiva, poderia ser *inteligente*. E propôs o **Teste de Touring** (ver https://en.wikipedia.org/wiki/Turing_test). Feliz ou infelizmente, John McCarthy cunhou o termo **Inteligência Artificial**, mas o correto é a denominação **Aprendizado de Máquina** (*Machine Learning* ou **ML**).
 
 Primeiro Neurônio
 --------------------
@@ -52,7 +52,7 @@ Primeiro Neurônio
   :width: 30%
   :alt: Rosenblat
 
-Em 1957 na Universidade de Cornell, Frank Rosenblatt, monta o primeiro circuito elétrico que mimetizava o **Neurônio Artificial**, denominado Percepton. Daí para frente o planeta estava pronto para sair da *Era Industrial* e entrar na *Era da Informação*. Porém, a evolução dos computadores com CPUs seriais foi incrivelmente bem sucedida e de forma exponencial, sendo que no início dos anos 80, devido a minituarização dos circuitos eletrônicos, surge a micro informática e os computadores pessoais. Já a teoria e desenvolvimento do circuitos neurais artificiais passou pela grande crise denominada o **Inverno da IA** (de ~1970-1990).
+Em 1957 na Universidade de Cornell, Frank Rosenblatt, monta o primeiro circuito elétrico que mimetizava o **Neurônio Artificial**, denominado Percepton. Daí para frente o planeta estava pronto para sair da *Era Industrial* e entrar na *Era da Informação*. Porém, a evolução dos computadores com CPUs seriais foi incrivelmente bem sucedida e de forma exponencial, sendo que no início dos anos 80, devido a miniaturização dos circuitos eletrônicos, surge a micro informática e os computadores pessoais. Já a teoria e desenvolvimento do circuitos neurais artificiais passou pela grande crise denominada o **Inverno da IA** (de ~1970-1990).
 
 
 | CPU - central processor unit
