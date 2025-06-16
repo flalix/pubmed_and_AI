@@ -109,15 +109,15 @@ Como já explicamos anteriormente, o retorno de uma pesquisa pode trazer referê
 
 \
 
-De forma siplificada, um artigo cientifico é divido em título, autores, abstract, palavras-chaves (*keyowords*), texto, referências e material suplementar. Quando se pesquisa **All Fieldes**, todos estes campos são pesqisados. Logo, p.ex., um artigo de Saúde Pública pode ter como referência um estudo clínico de **Hipertensão Arterial**, e não queremos um Artigo de Saúde Pública. Logo, **All Fields** trará vários falsos positivos (FP) consigo, pois permite pesquisar em referências.
+De forma simplificada, um artigo cientifico é divido em título, autores, abstract, palavras-chaves (*keyowords*), texto, referências e material suplementar. Quando se pesquisa **All Fields**, todos estes campos são pesquisados. Logo, p.ex., um artigo de Saúde Pública pode ter como referência um estudo clínico de **Hipertensão Arterial**, e não queremos um Artigo de Saúde Pública. Logo, **All Fields** trará vários falsos positivos (FP) consigo, pois permite pesquisar em referências.
 
 
 Melhorando a pesquisa
 -------------------------
 
-Para se reduzir o número de FP, devemos colocar seguindamente a cada termo o termo **Title/Abstract** (entre colchetes), de forma a se restringir a pesquisa somente a Títulos e Abstacts. Com isto podemos gerar Falsos Negativos (FN), correto? Sim, correto. Mas, dificilmente um artigo de hipertensão arterial não conterá estas palavras em Título ou no Abstract. Logo, este é o risco que corremos.
+Para se reduzir o número de FP, devemos colocar seguidamente a cada termo o termo **Title/Abstract** (entre colchetes), de forma a se restringir a pesquisa somente a Títulos e Abstracts. Com isto podemos gerar Falsos Negativos (FN), correto? Sim, correto. Mas, dificilmente um artigo de hipertensão arterial não conterá estas palavras em Título ou no Abstract. Logo, este é o risco que corremos.
 
-Adicionando a chave **Title/Abastract**.
+Adicionando a chave **Title/Abstract**.
 
 .. image:: ../images/pubmed_arterial_hyp_advanced_title_abst.png
   :align: center

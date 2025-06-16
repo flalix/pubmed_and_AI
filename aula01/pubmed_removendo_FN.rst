@@ -4,14 +4,14 @@ Minimizando Falsos Negativos
 Vamos supor que você faz uma pesquisa e aparecem 100 resultados, mas você sabe que existem bem mais que 100 artigos. O que deve fazer?
 
 
-Neste caso você se deparou com muitos Falsos Negativos (FN). Ou seja, resultados que não apareceream (resultados com status Negativo), mas que deveriam aparecer (Negativos, porém Errados ou Falsos).
+Neste caso você se deparou com muitos Falsos Negativos (FN). Ou seja, resultados que não aparecereram (resultados com status Negativo), mas que deveriam aparecer (Negativos, porém Errados ou Falsos).
 
 
 
 Por vezes podemos minimizar os FN
 -------------------------------------
 
-Algums palavras podem ter várias formas de serem escritas, como:
+Algumas palavras podem ter várias formas de serem escritas, como:
 
   1. card: cardíaco, cardíaca, cardiologia, cardiovascular, etc
   2. infec: infectologia, infecciosa, infectocontagiosa, etc
@@ -29,7 +29,7 @@ Solução minimizante
   :alt: PubMed and AI
 
 
-Na pesquisa PubMed, assim como na maioria das pesqisas na Internet (como pesquisa Google), você pode usar "wildcards" como asterístico (*). Troque a palavra que está pesquisando pelo seu "radical" (*stem word*) e acrescente um asterístico.
+Na pesquisa PubMed, assim como na maioria das pesqisas na Internet (como pesquisa Google), você pode usar "wildcards" como asterisco (*). Troque a palavra que está pesquisando pelo seu "radical" (*stem word*) e acrescente um asterisco.
 
 Mais adiante veremos o que é MESH. 
 

@@ -55,11 +55,11 @@ Vamos analisar os resultado,
 
 \
 
-Lendo os resultados, vemos que aparecem palavaras que não havíamos pesquisado como **childhood**, **neonate**, **infant**, e **adolescent**. Você verá que este problema não existe em pesquisas com IA, uma vez que a IA tem habilidades `semânticas` reconhecendo palavras `parecidas`, ouse seja, **tokens transformados em números** ou **embeddings**. Logo, palavras similares ou correlacionadas ocupam `espaços de embeddings` próximos, uma mesma região (ver mais adiante como funciona uma LLM).
+Lendo os resultados, vemos que aparecem palavras que não havíamos pesquisado como **childhood**, **neonate**, **infant**, e **adolescent**. Você verá que este problema não existe em pesquisas com IA, uma vez que a IA tem habilidades `semânticas` reconhecendo palavras `parecidas`, ouse seja, **tokens transformados em números** ou **embeddings**. Logo, palavras similares ou correlacionadas ocupam `espaços de embeddings` próximos, uma mesma região (ver mais adiante como funciona uma LLM).
 
-Portanto, podemos melhorar nossa pesquisa adiconando estas palavras novas, ou melhor, seus `radicais` (`stem-words`). E ao final teremos vários **OR** encadeados.
+Portanto, podemos melhorar nossa pesquisa adicionando estas palavras novas, ou melhor, seus `radicais` (`stem-words`). E ao final teremos vários **OR** encadeados.
 
-Aqui trocamos **children** e **childhood** por **child*** (com um asterístico ao fim, um *wildcard*), onde **child** é um `radical` ou `stem-word`.
+Aqui trocamos **children** e **childhood** por **child*** (com um asterisco ao fim, um *wildcard*), onde **child** é um `radical` ou `stem-word`.
 
 
 .. tip::
@@ -102,7 +102,7 @@ Passamos de 2911 artigos para 3909. Descobrimos possíveis 998 FN!
 \
 
 .. warning::
-   Observem como é difícil indenticar Falsos Negativos (FN)
+   Observem como é difícil indentificar Falsos Negativos (FN)
 
 
 

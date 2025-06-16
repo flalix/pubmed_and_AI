@@ -79,14 +79,14 @@ Dados dois conjuntos podemos obter:
   b. a **intersecção** entre eles
 
 
-Dados dois conjuntos denomidados A e B,
+Dados dois conjuntos denominados A e B,
 
 União
 ========
 
   * A U B = A + B - A ∩ B = união(A,B) 
      - união é o conjunto de todos os elementos contidos em A e B, sem repetição.
-     - uma vez que em A+B somamos duas vezes os elementos repetidos, subtraímos a interseção para calcular a união.s
+     - uma vez que em A+B somamos duas vezes os elementos repetidos, subtraímos a interseção para calcular a união.
 
 .. image:: ../images/bool_union.png
   :align: center
@@ -113,7 +113,7 @@ Intersecção
   **Desafio**
 
   * se A U B = A + B, dizemos que que os dois conjuntos não tem elementos comuns.
-  * logo, A U B = A + B  =>  A ∩ B = conjunto vazio = ∅ (phi maiúsulo)
+  * logo, A U B = A + B  =>  A ∩ B = conjunto vazio = ∅ (phi maiúsculo)
   * o símbolo => quer dizer **implica**.
 
 

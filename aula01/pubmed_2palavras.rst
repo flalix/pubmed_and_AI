@@ -34,14 +34,14 @@ Pequisa I
 Resultados I
 ==============
 
-  1. Diabetes: 1,053,389 results
-  2. Heart Disease: 1,660,518 results
-  3. 'Heart Disease': 1,660,518 results
-  4. heart disease: 1,660,518 results
-  5. heart diseases: 1,495,104 results
+  1. Diabetes: 1,054,888 results
+  2. Heart Disease: 1,661,926 results
+  3. 'Heart Disease': 1,661,926 results
+  4. 'heart disease': 1,661,926 results
+  5. heart disease: 1,661,926 results
+  6. heart diseases: 1,496,211 results
 
   
-
 .. tip::
    Porque **meus resultados** podem ser diferentes dos **seus resultados**?
 
@@ -61,18 +61,18 @@ Pequisa II
 Resultados II
 ==============
 
-  6. heart disease kidney failure: 45,110 results
-  7. heart disease AND kidney failure: 45,110 results
-  8. 'heart disease' AND 'kidney failure': 45,110 results
+  6. heart disease kidney failure: 36,626 results
+  7. heart disease AND kidney failure: 36,626 results
+  8. 'heart disease' AND 'kidney failure': 45,185 results
 
 .. tip::
-   As questões 6 a 8 são diferentes e geraram o mesmo resultado, quiçá por sorte. Isto se deve a cada palavra apararecerem nos 45.119 resultados assim como os conceitos ``heart disease`` e ``kidney failure``.
+   As *queries* 6 a 8 são diferentes e as 2 primeiras geraram o mesmo resultado, quiçá por sorte. Isto se deve a cada palavra apareceram nos 36,626 resultados assim como os conceitos ``heart disease`` e ``kidney failure``. Porém, em 8) o resultado foi maior. Porque? Será que pegou mais termos MESH? Vá em *history* e consulte a explicação -> separação dos termos *heart* e *disease* assim como *kidney* e *failure*.
 
 
 .. warning::
    Para pesquisar, use preferencialmente 
      1. os termos do dicionário MESH da PubMed
-     2. letras em mínusculo ou maiúsculo, tanto faz
+     2. letras em minúsculo ou maiúsculo, tanto faz
      3. o radical da palavra mais um ``*``
 
      exemplo: **heart disease***

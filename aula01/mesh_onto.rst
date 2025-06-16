@@ -7,13 +7,13 @@ O que é uma ontologia biomédica?
 Introdução
 =============
 
-Uma `ontologia biomédica` é  uma representação estruturada do conhecimento no domínio biomédico projetada para ser compreendida tanto por humanos quanto por computadores. As primeiras ontolgias foram criadas para se extrair conhecimento das páginas da internet e definidas pela W3C (https://www.w3.org/), órgão regulador da internet.
+Uma `ontologia biomédica` é  uma representação estruturada do conhecimento no domínio biomédico projetada para ser compreendida tanto por humanos quanto por computadores. As primeiras ontologias foram criadas para se extrair conhecimento das páginas da internet e definidas pela W3C (https://www.w3.org/), órgão regulador da internet.
 
 Uma ontologia biomédica é um grafo onde os termos são nós, relacionados entre si por conexões (*edges*) que são verbos (ações). Ela define conceitos, suas relações e propriedades de forma precisa e padronizada, permitindo armazenamento, recuperação e análise de dados mais eficientes.
 
 Através de ontologias podemos extrair conhecimento e verificar se frases ou textos estão corretos.
 
-As ontolgias vêm ganhando incrível evidência nos últimos anos, pois elas foram integradas a complexos *frameworks* ligados à Inteligência Artificial para dar consistência semântica e científica às pesquisas em liguagem natural (*queries*) (ver: https://www.slolab.ai/ e https://biochatter.org/latest/)
+As ontologias vêm ganhando incrível evidência nos últimos anos, pois elas foram integradas a complexos *frameworks* ligados à Inteligência Artificial para dar consistência semântica e científica às pesquisas em liguagem natural (*queries*) (ver: https://www.slolab.ai/ e https://biochatter.org/latest/)
 
 
 Exemplo
@@ -59,7 +59,7 @@ entre diversas outras.
 MESH - *Medical Subject Headings*
 -----------------------------------
 
-O tesauro Medical Subject Headings (MeSH) é um vocabulário controlado e hierarquicamente organizado, produzido pela Biblioteca Nacional de Medicina (National Library of Medicine). É usado para indexação, catalogação e busca de informações biomédicas e relacionadas à saúde. O MeSH inclui os cabeçalhos de assunto que aparecem no MEDLINE/PubMed, no Catálogo NLM e em outras bases de dados NLM. O MeSH não é uma ontologia em seu senso formal, mas contém vários conceitos de uma ontologia como vocabulário controlado e estruturado na forma de uma árvore. Não é uma ontologia, pois não contempla Axiomas formais, relações complexas e classes. Porém, ele contempla relações semânticas muito úteis para o entendimendo, busca e contextualização de termos biomédicos, como:
+O tesauro Medical Subject Headings (MeSH) é um vocabulário controlado e hierarquicamente organizado, produzido pela Biblioteca Nacional de Medicina (National Library of Medicine). É usado para indexação, catalogação e busca de informações biomédicas e relacionadas à saúde. O MeSH inclui os cabeçalhos de assunto que aparecem no MEDLINE/PubMed, no Catálogo NLM e em outras bases de dados NLM. O MeSH não é uma ontologia em seu senso formal, mas contém vários conceitos de uma ontologia como vocabulário controlado e estruturado na forma de uma árvore. Não é uma ontologia, pois não contempla Axiomas formais, relações complexas e classes. Porém, ele contempla relações semânticas muito úteis para o entendimento, busca e contextualização de termos biomédicos, como:
 
   - Termo mais amplo (Broader Term - BT): Um conceito mais geral.
   - Termo mais restrito (Narrower Term - NT): Um conceito mais específico.

@@ -47,5 +47,5 @@ Portanto, a matriz de confusão ficará assim
      - 300
    * - Negative
      - 103
-     - 38 Milhoes - 653308 - 103
+     - 38 Milhões - 653308 - 103
 
