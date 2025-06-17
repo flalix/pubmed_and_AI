@@ -85,8 +85,8 @@ Pequisa III
   9. 'heart disease' OR 'kidney failure'
 
 
-Resultados II
-==============
+Resultados III
+===============
 
   9. 'heart disease' OR 'kidney failure': 1,906,740 results
     * heart disease: 1,660,518 results
