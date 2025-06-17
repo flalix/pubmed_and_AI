@@ -35,6 +35,21 @@ Cria mapas de relacionamento, guarda a história de pesquisas.
 ref: https://app.litmaps.com/
 
 
+Elicit
+--------
+
+Contém artigos de todas as áreas científicas.
+
+Inputs:
+  * Pergunta em linguagem natural
+Outputs:
+  * Artigos
+  * Relatório
+  * Extração de dados
+
+https://elicit.com/
+
+
 Semantic Scholar
 -----------------
 
